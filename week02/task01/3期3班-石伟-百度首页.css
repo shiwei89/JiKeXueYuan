@@ -1,0 +1,178 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+div.one {
+    width: 100%;
+    height: 46px;
+}
+
+div.two {
+    text-align: center;
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+
+div.three {
+    width: 100%;
+    height: 268px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
+
+a.one,
+a.two,
+a.three,
+a.four,
+a.five,
+a.six,
+a.seven,
+a.eight {
+    font-size: 13px;
+    color: #333;
+    font-weight: bold;
+    display: inline;
+}
+
+a.one:hover,
+a.two:hover,
+a.three:hover,
+a.four:hover,
+a.five:hover,
+a.six:hover,
+a.seven:hover {
+    color: blue;
+}
+
+a.one {
+    position: absolute;
+    right: 395px;
+    top: 23px;
+    width: 30px;
+    letter-spacing: 1px;
+}
+
+a.two {
+    position: absolute;
+    right: 328px;
+    top: 23px;
+    width: 50px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+a.three {
+    position: absolute;
+    right: 283px;
+    top: 23px;
+    width: 30px;
+    letter-spacing: 1px;
+}
+
+a.four {
+    position: absolute;
+    right: 235px;
+    top: 23px;
+    width: 30px;
+    letter-spacing: 1px;
+}
+
+a.five {
+    position: absolute;
+    right: 187px;
+    top: 23px;
+    width: 30px;
+    letter-spacing: 1px;
+}
+
+a.six {
+    position: absolute;
+    right: 140px;
+    top: 23px;
+    width: 30px;
+    font-weight: normal;
+}
+
+a.seven {
+    position: absolute;
+    right: 94px;
+    top: 23px;
+    width: 30px;
+    font-weight: normal;
+}
+
+a.eight {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+    width: 60px;
+    height: 21px;
+    color: white;
+    background-color: #38f;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #38f;
+    line-height: 24px;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+form {
+    position:absolute;
+    top: 217px;
+    left: 363px;
+    border: 1px #3385ff;
+}
+
+#iid {
+    width: 537px;
+    height: 30px;
+    
+    display: inline;
+    
+}
+
+#iid2 {
+    width: 100px;
+    height: 36px;
+    display: inline;
+    float: right;
+    background: #3385ff;
+    border: 1px solid #3385ff;
+    font-size: 15px;
+    color: white;
+}
+
+#pid1 {
+    position: absolute;
+    left: 510px;
+    top: 525px;
+    font: 12px arial;
+    color: #00c;
+}
+
+a.nine {
+    color: #00c;
+}
+
+a.ten {
+    color: #666;
+}
+
+#pid2 {
+    position: absolute;
+    font: 12px arial;
+    left: 520px;
+    top: 543px;
+}

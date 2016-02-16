@@ -1,0 +1,20 @@
+body {
+    background: #00FFFF;
+}
+
+div {
+    margin: 0;
+    width: 70%；
+}
+
+table {
+    background-color: yellow;
+    text-align: center;
+    position: relative;
+    left: 300px;
+    top: 80px;
+    line-height: 150%;
+    font-size: 2em;
+    border-collapse: collapse;
+    color: #FF0000;
+}

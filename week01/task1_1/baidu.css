@@ -1,0 +1,144 @@
+    body {
+        margin: 0px;
+    }
+    
+    div.top {
+        width: 100%;
+        height: 66px;
+    }
+    
+    div.center {
+        width: 100%;
+        height: 300px;
+    }
+    
+    div.bottom {
+        width: 100%;
+        height: 300px;
+    }
+    
+    a.aclass {
+        text-align: right;
+        color: #333;
+        display: block;
+        line-height: 24px;
+        margin-left: 20px;
+        font-size: 13px;
+        font-weight: 600;
+    }
+    
+    #aclass1 {
+        position: absolute;
+        right: 340px;
+        width: 60px;
+    }
+    
+    #aclass2 {
+        position: absolute;
+        right: 290px;
+        width: 60px;
+    }
+    
+    #aclass3 {
+        position: absolute;
+        right: 250px;
+        width: 60px;
+    }
+    
+    #aclass4 {
+        position: absolute;
+        right: 210px;
+        width: 60px;
+    }
+    
+    #aclass5 {
+        position: absolute;
+        right: 170px;
+        width: 60px;
+    }
+    
+    #aclass6 {
+        position: absolute;
+        right: 130px;
+        width: 60px;
+    }
+    
+    #aclass7 {
+        position: absolute;
+        right: 90px;
+        width: 60px;
+    }
+    
+    #aclass8 {
+        position: absolute;
+        right: 10px;
+        width: 60px;
+        height: 23px;
+        float: left;
+        color: white;
+        background: #38f;
+        line-height: 24px;
+        font-size: 13px;
+        text-align: center;
+        overflow: hidden;
+        border-bottom: 1px solid #38f;
+        margin-left: 19px;
+        margin-right: 2px;
+        text-decoration: none;
+    }
+    
+    a.aclass2 {
+        color: rgb(0, 0, 204);
+        font-size: 12px;
+    }
+    
+    a:hover {
+        color: blue;
+    }
+    
+    a.aclass3 {
+        color: rgb(102, 102, 102);
+    }
+    
+    ul {
+        list-style-type: none;
+    }
+    
+    li {
+        display: inline;
+        float: left;
+    }
+    
+    #fid {
+        text-align: center;
+    }
+    
+    #iid {
+        padding-left: 50%;
+        margin-left: -135px;
+    }
+    
+    #pid {
+        text-align: center;
+    }
+    
+    .f-input {
+        width: 526px;
+        height: 36px;
+    }
+    
+    .i-input {
+        width: 100px;
+        height: 43px;
+        text-align: center;
+        font-size: 15px;
+        background-color: #3385ff;
+        color: white;
+    }
+    
+    p.pclass {
+        color: rgb(102, 102, 102);
+        font-size: 12px;
+        text-align: center;
+    }
+   

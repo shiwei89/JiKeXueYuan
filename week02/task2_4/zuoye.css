@@ -1,0 +1,55 @@
+.con {
+    display: -webkit-flex;
+    -webkit-box-direction: vertical;
+    width: 600px;
+    background-color: green;
+}
+
+.one {
+    -webkit-order: 2;
+    height: 100px;
+    -webkit-flex: 1;
+    background-color: red;
+}
+
+.two {
+    -webkit-order: 3;
+    height: 100px;
+    -webkit-flex: 1;
+    background-color: yellow;
+}
+
+.three {
+    -webkit-order: 1;
+    height: 200px;
+    -webkit-flex: 1;
+    background-color: blue;
+}
+
+.con2 {
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    width: 600px;
+    background-color: green;
+}
+
+#one {
+    -webkit-order: 2;
+    height: 100px;
+    -webkit-flex: 1;
+    background-color: red;
+}
+
+#two {
+    -webkit-order: 3;
+    height: 100px;
+    -webkit-flex: 1;
+    background-color: yellow;
+}
+
+#three {
+    -webkit-order: 1;
+    height: 200px;
+    -webkit-flex: 1;
+    background-color: blue;
+}

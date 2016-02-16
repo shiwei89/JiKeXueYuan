@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.xiezi {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+}
+
+.xiehe {
+    margin: 100px;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    background-color: blue;
+    border: 5px solid yellow;
+}
+
+.daizi {
+    margin: 100px;
+    width: 130px;
+    height: 130px;
+}

@@ -1,0 +1,16 @@
+.col {
+    -webkit-column-count: 3;
+    -webkit-column-rule-style: dotted;
+}
+
+.center {
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    height: 300px;
+    width: 300px;
+    background-color: orange;
+}
+
+
+

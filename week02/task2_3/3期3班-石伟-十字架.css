@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+}
+
+.one {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 1px solid green;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, .2);
+    margin-top: -150px;
+    margin-left: -50px;
+}
+
+.two {
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 1px solid green;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, .2);
+    margin-top: -50px;
+    margin-left: -150px;
+}
+
+.three {
+    width: 100px;
+    height: 100px;
+    background: url(image/panda.png) no-repeat #00FFFF center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 1px solid green;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, .2);
+    margin-top: -50px;
+    margin-left: -50px;
+}
+
+.four {
+    width: 100px;
+    height: 100px;
+    background: blue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 1px solid green;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, .2);
+    margin-top: -50px;
+    margin-left: 50px;
+}
+
+.five {
+    width: 100px;
+    height: 100px;
+    background: #8B008B;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 1px solid green;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, .2);
+    margin-top: 50px;
+    margin-left: -50px;
+}

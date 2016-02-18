@@ -1,0 +1,890 @@
+html {
+    overflow-y: scroll;
+}
+
+body,
+p,
+form,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body,
+form {
+    position: relative;
+}
+
+body {
+    cursor: default;
+    font: 12px arial;
+    background-color: #fff;
+}
+
+em {
+    font-style: normal;
+}
+
+a {
+    color: #000;
+}
+
+a:visited {
+    color: #000;
+}
+
+
+/*最外层盒子*/
+
+#wrapper {
+    min-width: 940px;
+    height: 100%;
+    min-height: 600px;
+    position: relative;
+    /*布局定位*/
+    text-align: center;
+}
+
+
+/*顶部导航栏的样式*/
+
+.nav-head {
+    height: 35px;
+    width: 100%;
+    border-bottom: 1px solid #EBEBEB;
+}
+
+
+/*导航条*/
+
+.city-wather span {
+    color: #555;
+}
+
+.weather-wrapper {
+    line-height: 20px;
+}
+
+.weather-wrapper span {
+    display: inline-block;
+    height: 20px;
+    vertical-align: bottom;
+}
+
+.show-weather em {
+    vertical-align: top;
+}
+
+.show-weather,
+.show-pollution {
+    display: inline-block;
+    height: 20px;
+}
+
+.weather-icon {
+    width: 18px;
+    height: 18px;
+    background: url(./image/a0_night.png);
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+
+/*污染情况的样式表*/
+
+.show-pollution {
+    vertical-align: bottom;
+}
+
+.polution-level-20 {
+    color: #badc00 !important;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+.show-pollution em {
+    margin-right: 4px;
+    margin-left: 7px;
+}
+
+.show-vertical {
+    margin-right: 11px;
+    font-size: 15px;
+    line-height: 18px;
+    margin-left: 7px;
+    color: #333;
+}
+
+#nav {
+    width: 100%;
+    min-width: 1000px;
+    height: 34px;
+    text-align: right;
+    position: relative;
+    border-bottom: 1px solid #EBEBEB;
+}
+
+
+/*天气的盒子*/
+
+#nav .weather-wrapper {
+    margin: 8px 0 0 15px;
+    float: left;
+    height: 35px;
+    line-height: 20px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+
+/*天气的图标*/
+
+#u_sp .s-icons {
+    float: left;
+    width: 220px;
+    height: 34px;
+    line-height: 35px;
+}
+
+.show-icon .weather-icon {
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+
+/*设置的单独样式*/
+
+#set-top {
+    height: 34px;
+    margin: 0px;
+    font-weight: normal;
+    position: absolute;
+    top: 0px;
+    right: 96px;
+    cursor: auto;
+}
+
+#u_sp .s-icons a {
+    float: left;
+    font-size: 13px;
+    color: #333;
+    text-decoration: underline;
+    margin-right: 13px;
+    outline: none;
+    display: inline-block;
+    position: relative;
+}
+
+#nav .nav-container {
+    z-index: 2;
+    position: absolute;
+    color: #fff;
+    right: 0;
+    top: 0;
+    height: 34px;
+    width: 430px;
+    float: right;
+    text-align: right;
+    padding-right: 96px;
+}
+
+#u_sp {
+    margin: 0px;
+    font-weight: normal;
+    position: absolute;
+    top: 0px;
+    right: 96px;
+    position: static;
+}
+
+
+/*从新闻到设置的样式*/
+
+.nav-item {
+    float: right;
+    color: #333;
+    line-height: 35px;
+    height: 34px;
+    margin-left: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: right;
+    text-decoration: underline;
+    white-space: nowrap;
+}
+
+
+/*hover背景颜色的改变*/
+
+.hover-blue:hover {
+    background: #38f;
+}
+
+
+/*用户的信息*/
+
+#nav a.nav-user {
+    float: right;
+    color: #333;
+    line-height: 35px;
+    height: 34px;
+    margin-left: 20px;
+    margin-right: 46px;
+    font-size: 13px;
+    text-decoration: underline;
+    /*white-space: nowrap;*/
+}
+
+#nav a.nav-user span {
+    margin-right: 2px;
+}
+
+#nav a.nav-production {
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    width: 60px;
+    height: 22px;
+    float: left;
+    color: #FFF;
+    background: #38F none repeat scroll 0% 0%;
+    line-height: 23px;
+    font-size: 13px;
+    font-weight: normal;
+    text-align: center;
+    overflow: hidden;
+    border-bottom: 1px solid #38F;
+    text-decoration: none;
+    margin-left: 19px;
+    margin-right: 2px;
+}
+
+
+/*中间部分的样式*/
+
+#content {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+/*图片与输入窗体的设置*/
+
+#content_wrapper {
+    position: relative;
+    margin: 0 auto;
+}
+
+
+/*百度logo*/
+
+#logo {
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 36px;
+}
+
+
+/*设置logo尺寸*/
+
+#logo img {
+    width: 270px;
+    height: 129px;
+}
+
+#logo .hidden {
+    display: none;
+}
+
+
+/*form的尺寸*/
+
+#form {
+    margin: 14px auto 0;
+    width: 641px;
+    height: 39px;
+    text-align: left;
+    border: 0;
+}
+
+
+/*输入框外侧的文本框*/
+
+#txtspn {
+    height: 34px;
+    border: 1px solid #b6b6b6;
+    background: #fff;
+    display: inline-block;
+    vertical-align: top;
+    width: 535px;
+    margin-right: 0;
+    padding: 2px;
+    border-right-width: 0;
+    border-color: #b8b8b8 transparent #ccc #b8b8b8;
+    /*右边的边框不显示*/
+    position: relative;
+    margin-right: 0;
+    float: left;
+}
+
+
+/*输入框*/
+
+#txt {
+    position: relative;
+    width: 500px;
+    height: 22px;
+    font: 16px/18px arial;
+    padding: 9px 7px;
+    margin: 6px 0 0 7px;
+    padding: 0;
+    background: transparent;
+    border: 0;
+    outline: 0;
+}
+
+
+/*鼠标划过事件 改变边框颜色*/
+
+#txtspn:hover {
+    border-color: #888;
+}
+
+
+/*提交按钮的父span框*/
+
+#smspn {
+    width: auto;
+    height: auto;
+    border-bottom: 1px solid transparent;
+    display: inline-block;
+    background-position: -120px, -48px;
+    vertical-align: top;
+    float: left;
+}
+
+
+/*提交按钮*/
+
+#sbmt {
+    width: 100px;
+    height: 40px;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    background: #3385ff;
+    border: 0;
+    border-bottom: 1px solid #2d78f4;
+    *border: 1px solid #2d78f4;
+    /*ie6和7的边框没和文本框对齐 （加上border以解决）*/
+    outline: medium;
+}
+
+
+/*改变鼠标划过时的样式*/
+
+#sbmt:hover {
+    cursor: pointer;
+    /*手型*/
+}
+
+#s-main {
+    width: 911px;
+    height: 320px;
+    margin: 47px auto 0 auto;
+}
+
+#s-main .left-main {
+    float: left;
+    width: 80px;
+    height: 320px;
+    background: #E9EAEA none repeat scroll 0% 0%;
+}
+
+
+/*喜欢的产品一览表*/
+
+#love-items li {
+    width: 80px;
+    height: 35px;
+    line-height: 35px;
+    list-style: none;
+    text-align: center;
+    font-size: 14px;
+    color: #969494;
+}
+
+#love-items li.current {
+    color: #FFF;
+    font-weight: bold;
+    background: url(./image/s_menu.png) no-repeat;
+    width: 80px;
+    border-right: none;
+    cursor: default;
+}
+
+#love-items li.li-settting {
+    background: #E9EAEA;
+    margin-top: 215px;
+}
+
+#love-items li:hover {
+    color: #FFF;
+    font-weight: bold;
+    background-color: #bbb;
+    width: 80px;
+    border-right: medium none;
+    cursor: default;
+}
+
+#love-items .li-settting span {
+    display: inline-block;
+    width: 20px;
+    height: 30px;
+    top: 5px;
+    left: 0;
+    position: relative;
+    background: transparent url(./image/noskin.png) no-repeat scroll -20px 5px;
+}
+
+#love-items .li-settting:hover span {
+    background-position: 2px 5px;
+}
+
+
+/*产品的主要内容区域*/
+
+#s-main .right-main {
+    float: right;
+    width: 813px;
+    height: 320px;
+    border: 1px solid #E9E9E9;
+}
+
+#s-main .right-main .classfy {
+    border-bottom: 1px solid #E9E9E9;
+}
+
+#s-main .right-main .classfy a {
+    display: inline-block;
+    width: 86px;
+    color: #222;
+    font-size: 14px;
+    height: 44px;
+    line-height: 44px;
+    text-decoration: none;
+    position: relative;
+}
+
+#s-main .love-nav-item {
+    padding-left: 20px;
+}
+
+#s-main .love-nav-item li {
+    width: 144px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 13px 0px 0px;
+    float: left;
+    text-align: left;
+    position: relative;
+    border-bottom: 1px solid #E9E9E9;
+}
+
+#s-main .love-nav-item li a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+#s-main .love-nav-item li a img {
+    width: 16px;
+    height: 16px;
+    margin-top: 6px;
+    margin-right: 5px;
+}
+
+#s-main .love-nav-item li a span {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-top: 6px;
+    margin-right: 5px;
+}
+
+.tieba {
+    background: url(./image/tieba.png?__sprite) no-repeat;
+}
+
+.weibo {
+    background: url(./image/weibo.png?__sprite) no-repeat;
+}
+
+.youku {
+    background: url(./image/youku.png?__sprite) no-repeat;
+}
+
+.hao123 {
+    background: url(./image/hao123.png?__sprite) no-repeat;
+}
+
+.jingdong {
+    background: url(./image/jingdong.png?__sprite) no-repeat;
+}
+
+.game7 {
+    background: url(./image/game7.png?__sprite) no-repeat;
+}
+
+.taobao {
+    background: url(./image/taobao.png?__sprite) no-repeat;
+}
+
+.mieshi {
+    background: url(./image/mieshi.png?__sprite) no-repeat;
+}
+
+.yamaxun {
+    background: url(./image/yamaxun.png?__sprite) no-repeat;
+}
+
+.xinlang {
+    background: url(./image/xinlang.png?__sprite) no-repeat;
+}
+
+.hupu {
+    background: url(./image/hupu.png?__sprite) no-repeat;
+}
+
+.jike {
+    background: url(./image/jike.png?__sprite) no-repeat;
+}
+
+#recom-nav li {
+    height: 60px;
+    line-height: 60px;
+}
+
+.nav-current {
+    border-bottom: 2px solid #38f;
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
+
+.change-panel {
+    float: right;
+    width: 237px;
+    padding-top: 24px;
+    margin-top: 0;
+    height: 292px;
+}
+
+.change-panel .title {
+    border-left: 1px solid #f3f3f3;
+    padding-bottom: 9px;
+    font-size: 18px;
+    color: #222;
+    height: 24px;
+    line-height: 24px;
+    padding-left: 40px;
+    font-family: arial, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', '宋体', \5b8b\4f53, Tahoma, Arial, Helvetica, STHeiti !important;
+}
+
+.bd-fmjs-ccpnl {
+    border-left: 1px solid #e3e3e3;
+    width: 220px;
+    height: 233px;
+    padding-left: 16px;
+    color: #666;
+}
+
+.bd-fm-list {
+    text-decoration: none;
+    width: 70px;
+    float: left;
+    padding-left: 20px;
+    display: block;
+    line-height: 30px;
+    height: 30px;
+    margin-right: 16px;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: arial, '宋体', 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', \5b8b\4f53, Tahoma, Arial, Helvetica, STHeiti !important;
+    text-align: left;
+}
+
+
+/*箭头*/
+
+.tag {
+    background: #00f;
+    border-radius: 8px;
+    position: relative;
+}
+
+
+/* 箭头 - :before and :after, 一起组成了好看的气泡小箭头 */
+
+.tag:before {
+    position: absolute;
+    display: inline-block;
+    border-left: 5px solid transparent;
+    border-bottom: 5px solid #00f;
+    border-right: 5px solid transparent;
+    border-bottom-color: #d1d1d1;
+    left: 29px;
+    top: -5px;
+    content: '';
+}
+
+
+/* 背景阴影*/
+
+.tag:after {
+    position: absolute;
+    display: inline-block;
+    border-left: 4px solid transparent;
+    border-bottom: 4px solid #fff;
+    border-right: 4px solid transparent;
+    left: 30px;
+    top: -4px;
+    content: '';
+}
+
+
+/*阴影效果*/
+
+.hide {
+    border: 1px solid #d1d1d1;
+    box-shadow: 1px 1px 5px #d1d1d1;
+    -webkit-box-shadow: 1px 1px 5px #d1d1d1;
+}
+
+.hide a {
+    font-size: 12px;
+    display: block;
+    text-align: left;
+    margin: 0!important;
+    padding: 0 9px;
+    line-height: 26px;
+    text-decoration: none;
+}
+
+.hide a.first-item {
+    margin-top: -6px;
+}
+
+#user-setting {
+    top: 34px;
+    display: none;
+    width: 70px;
+    position: absolute;
+    right: 141px;
+}
+
+#find-setting {
+    display: none;
+    top: 34px;
+    width: 70px;
+    position: absolute;
+    right: 71px;
+}
+
+#more-pro {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 85px;
+    z-index: 200;
+    border-left: 1px solid #e7e7e7;
+    background-color: #f9f9f9;
+}
+
+#more-pro a {
+    display: block;
+    text-align: center;
+    width: 66px;
+    height: 76px;
+    margin: 0 auto;
+    border-bottom: #f0f0f0 1px solid;
+    color: #666;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+#more-pro a:hover {
+    text-decoration: underline;
+}
+
+#more-pro .pro-normal {
+    margin-top: 15px;
+}
+
+#more-pro .pro-normal a {
+    height: 30px;
+    border-bottom: transparent;
+}
+
+#more-pro .mor-pro-link {
+    line-height: 30px;
+    height: 30px;
+    padding-bottom: 10px;
+}
+
+.pro_container span {
+    width: 36px;
+    height: 36px;
+    display: block;
+    margin: 10px auto 5px;
+    background: url(./image/icon.png) no-repeat;
+    cursor: pointer;
+}
+
+
+/*雪碧图的方式截取图片*/
+
+.pro_container span.item_2 {
+    background-position: -36px 0;
+}
+
+.pro_container span.item_3 {
+    background-position: -72px 0;
+}
+
+.pro_container span.item_4 {
+    background-position: -112px 0;
+}
+
+.pro_container span.item_5 {
+    background-position: -148px 0;
+}
+
+.pro_container span.item_6 {
+    background-position: -184px 0;
+}
+
+
+/*底部信息的样式*/
+
+#footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 8px;
+    overflow: hidden;
+    color: #CCC;
+    height: 14px;
+    text-align: center;
+    word-spacing: 3px;
+}
+
+#footer a {
+    color: #CCC;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    text-decoration: underline;
+}
+
+#footer a.set-home {
+    margin-right: 12px;
+}
+
+#footer .btm-icon {
+    width: 14px;
+    height: 17px;
+    display: inline-block;
+    background: url(./image/copy_rignt_24.png) no-repeat;
+    position: relative;
+    margin: 0 0 -2px 4px;
+}
+
+
+/*天气窗体的显示*/
+
+.s-mod-setweather {
+    position: absolute;
+    top: 34px;
+    left: 0;
+    width: 585px;
+    z-index: 500;
+    display: none;
+}
+
+.weather-setting-content {
+    height: 201px;
+    position: relative;
+    width: 585px;
+    background: #fff;
+    border: 1px solid #e3e3e3;
+    box-shadow: 1px 2px 1px 0 rgba(0, 0, 0, 0.072);
+    -moz-box-shadow: 1px 2px 1px 0 rgba(0, 0, 0, 0.072);
+    -webkit-box-shadow: 1px 2px 1px 0 rgba(0, 0, 0, 0.072);
+    filter: progid: DXImageTransform.Microsoft.Shadow(Strength=2, Direction=135, Color='#e3e3e3');
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=135, Color='#e3e3e3')";
+}
+
+.s-mod-setweather .lunar-mod {
+    height: 40px;
+    width: 547px;
+    margin: 0 19px;
+    border-bottom: #efefef 1px solid;
+}
+
+.s-mod-setweather .lunar-mod span {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    text-align: left;
+    font-size: 12px;
+    float: left;
+}
+
+.s-mod-setweather .lunar-sevenday a {
+    line-height: 40px;
+    color: #0079f4;
+}
+
+.s-mod-setweather .lunar-mod .lunar-setting-btn {
+    float: right;
+    color: #666;
+    width: 40px;
+    cursor: pointer;
+    text-align: right;
+    line-height: 40px;
+    background: url(./image/load_ext_spis_65c74648.png) no-repeat -36px -88px;
+    background-position: -36px -89px !important;
+    _background-position: -36px -90px;
+}
+
+.s-mod-setweather .everyday-item.is-today {
+    text-align: center;
+    font-weight: bold;
+    width: 121px;
+    padding-left: 40px;
+}
+
+.s-mod-setweather .everyday-item {
+    float: left;
+    width: 105px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.everyday-item:hover a {
+    color: #38f;
+}

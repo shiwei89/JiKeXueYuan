@@ -1,0 +1,790 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 7, ../sass/screen.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 12, ../sass/screen.scss */
+div.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/*header comment*/
+/* line 20, ../sass/screen.scss */
+div.header {
+  width: 1000px;
+  height: 50px;
+}
+/* line 23, ../sass/screen.scss */
+div.header input {
+  width: 340px;
+  height: 40px;
+  position: absolute;
+  margin-left: 240px;
+  margin-top: 15px;
+}
+/* line 30, ../sass/screen.scss */
+div.header input.search-btn {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  left: 340px;
+  margin-top: 15px;
+  border: 1px solid #dfdfdf;
+  background: url(111.png) center center no-repeat;
+}
+/* line 40, ../sass/screen.scss */
+div.header span a {
+  text-decoration: none;
+  font-size: 15px;
+  background: #dfdfdf;
+  color: #333;
+}
+/* line 45, ../sass/screen.scss */
+div.header span a:hover {
+  background: gray;
+}
+/* line 49, ../sass/screen.scss */
+div.header span a.one {
+  position: relative;
+  left: 125px;
+  top: -11px;
+}
+/* line 54, ../sass/screen.scss */
+div.header span a.two {
+  position: relative;
+  left: 135px;
+  top: -11px;
+}
+/* line 59, ../sass/screen.scss */
+div.header span a.three {
+  position: relative;
+  left: 145px;
+  top: -11px;
+}
+/* line 65, ../sass/screen.scss */
+div.header p {
+  width: 200px;
+  height: 20px;
+  float: right;
+  font-size: 15px;
+  margin-top: 25px;
+}
+/* line 71, ../sass/screen.scss */
+div.header p a {
+  margin-left: 17px;
+  text-decoration: none;
+}
+
+/* line 78, ../sass/screen.scss */
+hr {
+  width: 1000px;
+  color: red;
+}
+
+/*navigation comment*/
+/* line 88, ../sass/screen.scss */
+div.navigation ul.one li, div.navigation ul.two li {
+  display: inline;
+  font-size: 14px;
+  line-height: 42px;
+  margin-right: 22px;
+}
+/* line 93, ../sass/screen.scss */
+div.navigation ul.one li a, div.navigation ul.two li a {
+  text-decoration: none;
+  color: #333;
+}
+/* line 99, ../sass/screen.scss */
+div.navigation ul.two {
+  margin-top: -41px;
+  width: 270px;
+  position: relative;
+  right: -736px;
+  top: -11px;
+}
+/* line 107, ../sass/screen.scss */
+div.navigation ul.two li a {
+  text-align: right;
+}
+
+/*introduce comment*/
+/* line 117, ../sass/screen.scss */
+div.introduce {
+  height: 305px;
+  margin-top: 20px;
+  width: 1000px;
+}
+/* line 121, ../sass/screen.scss */
+div.introduce div.first {
+  float: left;
+  width: 210px;
+  height: 305px;
+  margin-right: 10px;
+}
+/* line 126, ../sass/screen.scss */
+div.introduce div.first div {
+  line-height: 36px;
+  border: 1px solid gray;
+  border-top-color: #35b558;
+}
+/* line 130, ../sass/screen.scss */
+div.introduce div.first div a {
+  text-decoration: none;
+  margin: 11px;
+}
+/* line 133, ../sass/screen.scss */
+div.introduce div.first div a:hover {
+  color: #35b558;
+}
+/* line 139, ../sass/screen.scss */
+div.introduce div.second {
+  float: left;
+  background: white;
+  display: none;
+  z-index: 100;
+  position: absolute;
+  left: 400px;
+  background: red;
+}
+/* line 147, ../sass/screen.scss */
+div.introduce div.second div {
+  line-height: 37px;
+}
+/* line 149, ../sass/screen.scss */
+div.introduce div.second div a {
+  text-decoration: none;
+  margin: 11px;
+}
+/* line 152, ../sass/screen.scss */
+div.introduce div.second div a:hover {
+  color: #35b558;
+}
+/* line 158, ../sass/screen.scss */
+div.introduce div.third {
+  float: left;
+}
+/* line 160, ../sass/screen.scss */
+div.introduce div.third div.carousel {
+  width: 570px;
+}
+/* line 162, ../sass/screen.scss */
+div.introduce div.third div.carousel a {
+  width: 50px;
+  background: red;
+  height: 50px;
+}
+/* line 169, ../sass/screen.scss */
+div.introduce div.fourth {
+  width: 210px;
+  height: 152px;
+  float: left;
+  border: 1px solid gray;
+}
+/* line 174, ../sass/screen.scss */
+div.introduce div.fourth h5 {
+  margin: 25px 20px;
+}
+/* line 177, ../sass/screen.scss */
+div.introduce div.fourth p {
+  color: #35b558;
+  font-size: 12px;
+  margin: 15px 20px;
+  line-height: 1.8;
+}
+/* line 183, ../sass/screen.scss */
+div.introduce div.fourth button {
+  width: 168px;
+  height: 34px;
+  line-height: 34px;
+  font-size: 14px;
+  cursor: pointer;
+  border-color: #7bda95;
+  background: #35b558;
+  color: #FFF;
+  margin-left: 20px;
+}
+/* line 195, ../sass/screen.scss */
+div.introduce div.fifth {
+  width: 210px;
+  height: 152px;
+  float: left;
+  border: 1px solid gray;
+}
+/* line 200, ../sass/screen.scss */
+div.introduce div.fifth h5 {
+  margin: 25px 20px 12px;
+}
+/* line 203, ../sass/screen.scss */
+div.introduce div.fifth p {
+  color: #35b558;
+  font-size: 12px;
+  margin: 5px 20px;
+  line-height: 1.8;
+}
+/* line 209, ../sass/screen.scss */
+div.introduce div.fifth button {
+  width: 168px;
+  height: 34px;
+  line-height: 34px;
+  font-size: 14px;
+  cursor: pointer;
+  border-color: #7bda95;
+  color: #35b558;
+  margin-left: 20px;
+}
+
+/* line 222, ../sass/screen.scss */
+div#tabs {
+  width: 1000px;
+  height: 510px;
+}
+/* line 226, ../sass/screen.scss */
+div#tabs li a {
+  width: 159px;
+  float: left;
+  text-align: center;
+}
+/* line 233, ../sass/screen.scss */
+div#tabs div#tabs-1 div.one,
+div#tabs div#tabs-1 div.two,
+div#tabs div#tabs-1 div.three,
+div#tabs div#tabs-1 div.four,
+div#tabs div#tabs-1 div.five,
+div#tabs div#tabs-1 div.six,
+div#tabs div#tabs-1 div.seven,
+div#tabs div#tabs-1 div.eight {
+  width: 235px;
+  height: 215px;
+  float: left;
+  border: 1px solid gray;
+}
+/* line 245, ../sass/screen.scss */
+div#tabs div#tabs-1 div.one img,
+div#tabs div#tabs-1 div.two img,
+div#tabs div#tabs-1 div.three img,
+div#tabs div#tabs-1 div.four img,
+div#tabs div#tabs-1 div.five img,
+div#tabs div#tabs-1 div.six img,
+div#tabs div#tabs-1 div.seven img,
+div#tabs div#tabs-1 div.eight img {
+  width: 235px;
+  height: 130px;
+}
+/* line 249, ../sass/screen.scss */
+div#tabs div#tabs-1 div.one p.one,
+div#tabs div#tabs-1 div.two p.one,
+div#tabs div#tabs-1 div.three p.one,
+div#tabs div#tabs-1 div.four p.one,
+div#tabs div#tabs-1 div.five p.one,
+div#tabs div#tabs-1 div.six p.one,
+div#tabs div#tabs-1 div.seven p.one,
+div#tabs div#tabs-1 div.eight p.one {
+  margin: 10px;
+}
+/* line 252, ../sass/screen.scss */
+div#tabs div#tabs-1 div.one p.two,
+div#tabs div#tabs-1 div.two p.two,
+div#tabs div#tabs-1 div.three p.two,
+div#tabs div#tabs-1 div.four p.two,
+div#tabs div#tabs-1 div.five p.two,
+div#tabs div#tabs-1 div.six p.two,
+div#tabs div#tabs-1 div.seven p.two,
+div#tabs div#tabs-1 div.eight p.two {
+  font-size: 10px;
+  margin: 10px;
+  display: none;
+}
+/* line 257, ../sass/screen.scss */
+div#tabs div#tabs-1 div.one p.three,
+div#tabs div#tabs-1 div.two p.three,
+div#tabs div#tabs-1 div.three p.three,
+div#tabs div#tabs-1 div.four p.three,
+div#tabs div#tabs-1 div.five p.three,
+div#tabs div#tabs-1 div.six p.three,
+div#tabs div#tabs-1 div.seven p.three,
+div#tabs div#tabs-1 div.eight p.three {
+  font-size: 10px;
+  margin: 10px;
+}
+/* line 262, ../sass/screen.scss */
+div#tabs div#tabs-1 div.one,
+div#tabs div#tabs-1 div.five {
+  margin-left: -22px;
+  margin-right: 10px;
+}
+/* line 267, ../sass/screen.scss */
+div#tabs div#tabs-1 div.two,
+div#tabs div#tabs-1 div.six,
+div#tabs div#tabs-1 div.seven {
+  margin-right: 10px;
+}
+/* line 272, ../sass/screen.scss */
+div#tabs div#tabs-1 div.three {
+  margin-right: 10px;
+  margin-top: 0px;
+}
+/* line 276, ../sass/screen.scss */
+div#tabs div#tabs-1 div.five {
+  background: #fff;
+}
+/* line 279, ../sass/screen.scss */
+div#tabs div#tabs-1 div.six,
+div#tabs div#tabs-1 div.seven,
+div#tabs div#tabs-1 div.five,
+div#tabs div#tabs-1 div.eight {
+  margin-top: 20px;
+}
+/* line 287, ../sass/screen.scss */
+div#tabs div#tabs-2 div {
+  width: 235px;
+  height: 215px;
+  float: left;
+}
+/* line 293, ../sass/screen.scss */
+div#tabs div#tabs-2 div.one img {
+  width: 235px;
+  height: 130px;
+}
+/* line 297, ../sass/screen.scss */
+div#tabs div#tabs-2 div.one p.one {
+  margin: 10px;
+}
+/* line 300, ../sass/screen.scss */
+div#tabs div#tabs-2 div.one p.two {
+  font-size: 10px;
+  margin: 10px;
+  display: none;
+}
+/* line 305, ../sass/screen.scss */
+div#tabs div#tabs-2 div.one p.three {
+  font-size: 10px;
+  margin: 10px;
+}
+/* line 310, ../sass/screen.scss */
+div#tabs div#tabs-2 div.one,
+div#tabs div#tabs-2 div.five {
+  margin-left: -22px;
+  margin-right: 10px;
+}
+
+/*career comment*/
+/* line 321, ../sass/screen.scss */
+div.career {
+  clear: both;
+  width: 1000px;
+}
+/* line 324, ../sass/screen.scss */
+div.career p.one {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+/* line 330, ../sass/screen.scss */
+div.career p a {
+  text-decoration: none;
+  color: #333;
+}
+/* line 335, ../sass/screen.scss */
+div.career img {
+  width: 199px;
+  height: 120px;
+}
+/* line 339, ../sass/screen.scss */
+div.career h2 {
+  font-size: 15px;
+  color: #333;
+  margin-bottom: 20px;
+  height: 18px;
+  overflow: hidden;
+}
+/* line 346, ../sass/screen.scss */
+div.career div.o {
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-style: solid none solid solid;
+  border-top-color: #e4e4e4;
+  border-bottom-color: #e4e4e4;
+  border-left-color: #e4e4e4;
+  margin-top: 0px;
+  float: left;
+  text-align: center;
+}
+/* line 357, ../sass/screen.scss */
+div.career div.o:hover {
+  border-color: #35b558;
+}
+/* line 360, ../sass/screen.scss */
+div.career div.o p {
+  font-size: 12px;
+  color: #666;
+  line-height: 20px;
+  height: 20px;
+  width: 199px;
+  overflow: hidden;
+}
+/* line 368, ../sass/screen.scss */
+div.career div.o button {
+  width: 140px;
+  height: 35px;
+  color: #35b558;
+  border-color: #35b558;
+  font-weight: 700;
+}
+/* line 374, ../sass/screen.scss */
+div.career div.o button:hover {
+  color: #FFF;
+  background: #e4e4e4;
+}
+
+/*knowledge-hierarchy comment*/
+/* line 385, ../sass/screen.scss */
+div.knowledge-hierarchy {
+  margin-top: 45px;
+}
+/* line 387, ../sass/screen.scss */
+div.knowledge-hierarchy p.one {
+  color: #333;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* line 394, ../sass/screen.scss */
+div.six1 {
+  width: 161px;
+  height: 120px;
+  background: #fff;
+  border: 1px solid #E4E4E4;
+  text-align: center;
+  float: left;
+}
+/* line 401, ../sass/screen.scss */
+div.six1 a {
+  text-decoration: none;
+}
+/* line 404, ../sass/screen.scss */
+div.six1 p {
+  margin-top: 30px;
+  display: block;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+/* line 412, ../sass/screen.scss */
+div.six1 button {
+  height: 30px;
+  width: 139px;
+  background: #35b558;
+  margin-bottom: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #fff;
+}
+/* line 421, ../sass/screen.scss */
+div.six1 img {
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+}
+/* line 426, ../sass/screen.scss */
+div.six1 h2 {
+  font-size: 16px;
+  margin-top: 0px;
+  color: #333;
+}
+/* line 431, ../sass/screen.scss */
+div.six1 span {
+  color: #35b558;
+}
+
+/* line 436, ../sass/screen.scss */
+div.back {
+  width: 160px;
+  height: 120px;
+  background: #f5f5f5;
+  float: left;
+  -webkit-transform: rotateY(180deg);
+}
+
+/* line 444, ../sass/screen.scss */
+div.front {
+  width: 160px;
+  height: 120px;
+  background: #fff;
+  position: absolute;
+  float: left;
+  -webkit-transform: rotateY(0deg);
+}
+
+/*gorenje  comment*/
+/* line 456, ../sass/screen.scss */
+div.gorenje {
+  clear: both;
+  width: 1000px;
+}
+/* line 459, ../sass/screen.scss */
+div.gorenje p.one {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+/* line 465, ../sass/screen.scss */
+div.gorenje p a {
+  text-decoration: none;
+  color: #333;
+}
+/* line 470, ../sass/screen.scss */
+div.gorenje div.one2 {
+  width: 235px;
+  height: 261px;
+  padding: 17px;
+  border: 1px solid gray;
+  margin-right: 20px;
+  float: left;
+}
+/* line 478, ../sass/screen.scss */
+div.gorenje h3 {
+  font-size: 16px;
+}
+/* line 481, ../sass/screen.scss */
+div.gorenje img {
+  width: 201px;
+  height: 160px;
+}
+/* line 485, ../sass/screen.scss */
+div.gorenje span {
+  margin-top: 20px;
+}
+/* line 488, ../sass/screen.scss */
+div.gorenje div.one4 {
+  margin-right: 0px;
+}
+
+/*WiKi  comment*/
+/* line 496, ../sass/screen.scss */
+div.WiKi {
+  clear: both;
+  width: 1000px;
+  background: orange;
+}
+/* line 500, ../sass/screen.scss */
+div.WiKi p.one {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+/* line 506, ../sass/screen.scss */
+div.WiKi p a {
+  text-decoration: none;
+  color: #333;
+}
+/* line 511, ../sass/screen.scss */
+div.WiKi div.one8 {
+  padding: 10px;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-style: solid none solid solid;
+  border-top-color: #e4e4e4;
+  border-bottom-color: #e4e4e4;
+  border-left-color: #e4e4e4;
+  margin-top: 0px;
+  float: left;
+  width: 333px;
+}
+/* line 524, ../sass/screen.scss */
+div.WiKi img.one {
+  margin-right: 18px;
+}
+/* line 527, ../sass/screen.scss */
+div.WiKi h6 {
+  font-size: 12px;
+}
+/* line 530, ../sass/screen.scss */
+div.WiKi span {
+  margin: auto 40px;
+}
+/* line 535, ../sass/screen.scss */
+div.WiKi ul li span {
+  font-size: 10px;
+}
+/* line 538, ../sass/screen.scss */
+div.WiKi ul li span.two {
+  float: right;
+}
+
+/*strategic-cooperation  comment*/
+/* line 548, ../sass/screen.scss */
+div.strategic-cooperation {
+  clear: both;
+  width: 1000px;
+}
+/* line 551, ../sass/screen.scss */
+div.strategic-cooperation p.first {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+/* line 557, ../sass/screen.scss */
+div.strategic-cooperation p a {
+  text-decoration: none;
+  color: #333;
+}
+/* line 562, ../sass/screen.scss */
+div.strategic-cooperation div.first {
+  border: 1px solid #E4E4E4;
+  height: 90px;
+  padding: 20px;
+  width: 1000px;
+}
+
+/* line 570, ../sass/screen.scss */
+div.carousel slide2 {
+  width: 270px;
+}
+
+/*Cooperative-Academy  comment*/
+/* line 577, ../sass/screen.scss */
+div.Cooperative-Academy {
+  clear: both;
+  width: 1000px;
+}
+/* line 580, ../sass/screen.scss */
+div.Cooperative-Academy p.first {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+/* line 586, ../sass/screen.scss */
+div.Cooperative-Academy p a {
+  text-decoration: none;
+  color: #333;
+}
+/* line 591, ../sass/screen.scss */
+div.Cooperative-Academy div.first {
+  border: 1px solid #E4E4E4;
+  height: 150px;
+  padding: 20px;
+  width: 1000px;
+}
+/* line 597, ../sass/screen.scss */
+div.Cooperative-Academy img {
+  width: 110px;
+  height: 110px;
+}
+
+/*Media-reports  comment*/
+/* line 606, ../sass/screen.scss */
+div.Media-reports {
+  clear: both;
+  width: 1000px;
+}
+/* line 609, ../sass/screen.scss */
+div.Media-reports p.first {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+/* line 615, ../sass/screen.scss */
+div.Media-reports p a {
+  text-decoration: none;
+  color: #333;
+}
+/* line 620, ../sass/screen.scss */
+div.Media-reports div.first {
+  border: 1px solid #E4E4E4;
+  height: 90px;
+  padding: 20px;
+  width: 1000px;
+}
+/* line 626, ../sass/screen.scss */
+div.Media-reports img {
+  width: 110px;
+  height: 110px;
+}
+
+/*footer  comment*/
+/* line 635, ../sass/screen.scss */
+div.footer {
+  width: 1000px;
+}
+/* line 637, ../sass/screen.scss */
+div.footer h1 {
+  font-size: 16px;
+}
+/* line 640, ../sass/screen.scss */
+div.footer div.one {
+  width: 185px;
+  height: 251px;
+  padding-top: 30px;
+  padding-left: 40px;
+  border-left: solid 1px #333;
+  float: left;
+}
+/* line 647, ../sass/screen.scss */
+div.footer div.one a {
+  color: #333;
+}
+/* line 649, ../sass/screen.scss */
+div.footer div.one a:hover {
+  color: #35b558;
+  text-decoration: none;
+}
+/* line 655, ../sass/screen.scss */
+div.footer div.fourth {
+  border-right: solid 1px #333;
+}
+/* line 658, ../sass/screen.scss */
+div.footer div.fifth {
+  padding-top: 25px;
+  padding-left: 45px;
+  border-left: solid 1px #333;
+}
+/* line 662, ../sass/screen.scss */
+div.footer div.fifth img {
+  width: 21px;
+  height: 49px;
+  position: relative;
+  left: 13px;
+}
+/* line 668, ../sass/screen.scss */
+div.footer div.fifth span.one {
+  position: relative;
+  top: -8px;
+  left: 14px;
+}
+/* line 673, ../sass/screen.scss */
+div.footer div.fifth p.one {
+  padding-right: 162px;
+  margin-left: -10px;
+}
+/* line 677, ../sass/screen.scss */
+div.footer div.fifth span.two {
+  position: relative;
+  top: 20px;
+  left: -55px;
+}
+/* line 682, ../sass/screen.scss */
+div.footer div.fifth span.four {
+  position: relative;
+  top: 20px;
+  left: -40px;
+}
+
+/*Copyright  comment*/
+/* line 693, ../sass/screen.scss */
+div.Copyright {
+  width: 1366px;
+  height: 56px;
+}
+/* line 696, ../sass/screen.scss */
+div.Copyright div {
+  margin-left: 325px;
+}

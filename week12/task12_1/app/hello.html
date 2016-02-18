@@ -1,0 +1,404 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8">
+    <title>百度一下，你就知道</title>
+    <link rel="stylesheet" href="../static/hello/src/style.css">
+</head>
+
+<body>
+    <!-- 最外层的盒子 -->
+    <div id="wrapper">
+        <!-- 网页的顶端部分 -->
+        <div id="nav">
+            <!-- 左上侧位置信息及先关设置 -->
+            <div class="weather-wrapper" id="weather-wrapper">
+                <span class="show-city">
+                    <em class="show-city-name">北京：</em>
+                </span>
+                <span class="show-icon">
+                    <span class="weather-icon"></span>
+                <em class="show-icon-temp">-2℃</em>
+                </span>
+                <div class="show-pollution">
+                    <span class="show-airParm polution-level-20">
+                        <em class="show-polution-name">良</em>
+                        <em class="show-polution-num">68</em>
+                    </span>
+                    <span class="show-vertical">|</span>
+                </div>
+            </div>
+            <div id="u_sp">
+                <div class="s-icons" id="s_icons">
+                    <a class="s-treasure" href="#" title="宝箱">
+                        <span class="s-icon s-icon-treasure"></span>
+                        <span class="title">宝箱</span></a>
+                    <a class="s-skin" href="#" title="换肤">
+                        <span class="s-icon s-icon-skin"></span>
+                        <span class="title">换肤</span>
+                    </a>
+                    <a class="s-msg" href="#" title="消息">
+                        <span class="s-icon s-icon-msg"></span>
+                        <span class="title">消息</span>
+                    </a>
+                </div>
+            </div>
+            <!-- 右上角侧的产品列表及用户 -->
+            <div class="nav-container">
+                <!-- 最先显示用户的信息 -->
+                <a id="set-top" href="#" class="nav-item">设置</a>
+                <a href="#" class="nav-user" id="nav-user"><span>天空飞吧吧</span></a>
+                <a href="http://tieba.baidu.com" class="nav-item">贴吧</a>
+                <a href="http://v.baidu.com" class="nav-item">视频</a>
+                <a href="http://map.baidu.com" class="nav-item">地图</a>
+                <a href="http://www.hao123.com" class="nav-item">hao123</a>
+                <a href="http://news.baidu.com" class="nav-item">新闻</a>
+                <a href="#" class="nav-production">更多产品</a>
+            </div>
+        </div>
+        <!-- 网页的中间部分 -->
+        <div id="content">
+            <div id="content_wrapper">
+                <!-- logo -->
+                <div id="logo">
+                    <img src="../static/hello/src/image/bd_logo1.png" alt="logo" />
+                </div>
+                <!-- 搜索框 -->
+                <form id="form">
+                    <span id="txtspn" class="txtspan">
+                    <input id="txt" autofocus type="text"/>
+                    </span>
+                    <span id="smspn"><input id="sbmt" type="submit" value="百度一下"/></span>
+                </form>
+            </div>
+            <div id="s-main">
+                <div class="left-main">
+                    <ul id="love-items">
+                        <li class="current">导航</li>
+                        <li>音乐</li>
+                        <li class="li-settting"><span></span></li>
+                    </ul>
+                </div>
+                <div class="right-main">
+                    <li class="main-pro" id="main-pro-first">
+                        <ul class="classfy">
+                            <a class="nav-current">我的导航</a>
+                            <a>推荐导航</a>
+                        </ul>
+                        <div id="love-nav">
+                            <ul class="love-nav-item" id="nav-item-first">
+                                <li>
+                                    <a href="http://tieba.baidu.com/" title="百度贴吧" target="_blank">
+                                        <span class="tieba"></span>
+                                        <em class="sc-dragitem">百度贴吧</em>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://tieba.baidu.com/" title="新浪微博" target="_blank">
+                                        <span class="weibo"></span>
+                                        <em class="sc-dragitem">新浪微博</em>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://tieba.baidu.com/" title="优酷网" target="_blank">
+                                        <span class="youku"></span>
+                                        <em class="sc-dragitem">优酷网</em>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://tieba.baidu.com/" title="hao123" target="_blank">
+                                        <span class="hao123"></span>
+                                        <em class="sc-dragitem">hao123</em>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://tieba.baidu.com/" title="京东商城" target="_blank">
+                                        <span class="jingdong"></span>
+                                        <em class="sc-dragitem">京东商城</em>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://tieba.baidu.com/" title="7k7k小游戏" target="_blank">
+                                        <span class="game7"></span>
+                                        <em class="sc-dragitem">7k7k小游戏</em>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://tieba.baidu.com/" title="淘宝网" target="_blank">
+                                        <span class="taobao"></span>
+                                        <em class="sc-dragitem">淘宝网</em>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://tieba.baidu.com/" title="灭世" target="_blank">
+                                        <span class="mieshi"></span>
+                                        <em class="sc-dragitem">灭世</em>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://tieba.baidu.com/" title="亚马逊" target="_blank">
+                                        <span class="yamaxun"></span>
+                                        <em class="sc-dragitem">亚马逊</em>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://tieba.baidu.com/" title="新浪" target="_blank">
+                                        <span class="xinlang"></span>
+                                        <em class="sc-dragitem">新浪</em>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="love-nav-item hidden" id="nav-item-second">
+                                <li>
+                                    <a href="http://tieba.baidu.com/" title="虎扑篮球" target="_blank">
+                                        <span class="hupu"></span>
+                                        <em class="sc-dragitem">虎扑篮球</em>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://tieba.baidu.com/" title="淘宝网" target="_blank">
+                                        <span class="taobao"></span>
+                                        <em class="sc-dragitem">淘宝网</em>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://tieba.baidu.com/" title="极客学院" target="_blank">
+                                        <span class="jike"></span>
+                                        <em class="sc-dragitem">极客学院</em>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://tieba.baidu.com/" title="nba直播" target="_blank">
+                                        <span class="hupu"></span>
+                                        <em class="sc-dragitem">nba直播</em>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://tieba.baidu.com/" title="hao123" target="_blank">
+                                        <span class="hao123"></span>
+                                        <em class="sc-dragitem">hao123</em>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://tieba.baidu.com/" title="京东商城" target="_blank">
+                                        <span class="jingdong"></span>
+                                        <em class="sc-dragitem">京东商城</em>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://tieba.baidu.com/" title="7k7k小游戏" target="_blank">
+                                        <span class="game7"></span>
+                                        <em class="sc-dragitem">7k7k小游戏</em>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://tieba.baidu.com/" title="亚马逊" target="_blank">
+                                        <span class="yamaxun"></span>
+                                        <em class="sc-dragitem">亚马逊</em>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://tieba.baidu.com/" title="新浪" target="_blank">
+                                        <span class="xinlang"></span>
+                                        <em class="sc-dragitem">新浪</em>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://tieba.baidu.com/" title="灭世" target="_blank">
+                                        <span class="mieshi"></span>
+                                        <em class="sc-dragitem">灭世</em>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="main-pro hidden" id="main-pro-second">
+                        <div class="change-panel">
+                            <div class="title">热门频道</div>
+                            <div class="bd-fmjs-ccpnl">
+                                <a href="#" class="bd-fm-list">
+                                    <span class="bd-fm-list-icon">私人频道</span></a>
+                                <a href="#" class="bd-fm-list lovesongs" channel>
+                                    <span class="bd-fm-list-icon">红心频道</span>
+                                </a>
+                                <a href="#" class="bd-fm-list">
+                                    <span class="bd-fm-list-icon">随便听听</span>
+                                </a>
+                                <a href="#" class="bd-fm-list">
+                                    <span class="bd-fm-list-icon">欧美</span>
+                                </a>
+                                <a href="#" class="bd-fm-list">
+                                    <span class="bd-fm-list-icon">经典老歌</span>
+                                </a>
+                                <a href="#" class="bd-fm-list">
+                                    <span class="bd-fm-list-icon">DJ舞曲</span>
+                                </a>
+                                <a href="#" class="bd-fm-list">
+                                    <span class="bd-fm-list-icon">热歌</span>
+                                </a>
+                                <a href="#" class="bd-fm-list">
+                                    <span class="bd-fm-list-icon">网络红歌</span>
+                                </a>
+                                <a href="#" class="bd-fm-list">
+                                    <span class="bd-fm-list-icon">成名曲</span>
+                                </a>
+                                <a href="#" class="bd-fm-list">
+                                    <span class="bd-fm-list-icon">火爆新歌</span>
+                                </a>
+                                <a href="#" class="bd-fm-list">
+                                    <span class="bd-fm-list-icon">流行</span>
+                                </a>
+                                <a href="#" class="bd-fm-list">
+                                    <span class="bd-fm-list-icon">快乐旋律</span>
+                                </a>
+                                <a href="#" class="bd-fm-list">
+                                    <span class="bd-fm-list-icon">KTV金曲</span>
+                                </a>
+                                <a href="#" class="bd-fm-list">
+                                    <span class="bd-fm-list-icon">伤感调频</span>
+                                </a>
+                                <a href="#" class="bd-fm-list">
+                                    <span class="bd-fm-list-icon">80后</span>
+                                </a>
+                                <a href="#" class="bd-fm-list">
+                                    <span class="bd-fm-list-icon">90后</span>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 网页的页脚部分 -->
+    <div id="footer">
+        <a class="set-home" href="#">设为首页</a>
+        <span>©2015&nbsp;Baidu&nbsp;</span>
+        <a href="#">使用百度前必读</a>&nbsp;
+        <a href="#">意见反馈</a> &nbsp; 京ICP证030173号&nbsp;
+        <i class="btm-icon"></i>
+    </div>
+    <!-- 后加载一些一些暂时不显示的部分信息 -->
+    <!-- 登录部分的导航条 -->
+    <div class="hide hover-block hover-self" id="user-setting">
+        <div class="tag"></div>
+        <a href="#" class="hover-blue first-item">我的VIP</a>
+        <a href="#" class="hover-blue">个人中心</a>
+        <a href="#" class="hover-blue">帐号设置</a>
+        <a href="#" class="hover-blue">意见反馈</a>
+        <a href="#" class="hover-blue">退出</a>
+    </div>
+    <!-- 设置部分的导航条 -->
+    <div class="hide hover-self" id="find-setting">
+        <div class="tag"></div>
+        <a href="#" class="hover-blue" first-item>搜索设置</a>
+        <a href="#" class="hover-blue">高级搜索</a>
+        <a href="javascript:;" class="hover-blue">关闭预测</a>
+        <a href="javascript:;" class="hover-blue">搜索历史</a>
+    </div>
+    <!-- 更多产品的导航条 -->
+    <div id="more-pro" class="hover-self">
+        <a href="#" class="mor-pro-link">更多产品</a>
+        <div class="bdmainlink">
+            <div class="pro_container">
+                <a href="#"><span class="item_1"></span> 糯米</a>
+                <a href="#">
+                    <span class="item_2"></span> 知道
+                </a>
+                <a href="#">
+                    <span class="item_3"></span> 音乐
+                </a>
+                <a href="#">
+                    <span class="item_4"></span> 图片
+                </a>
+                <a href="#">
+                    <span class="item_5"></span> 文库
+                </a>
+                <a href="#">
+                    <span class="item_6"></span> 风云榜
+                </a>
+                <a href="#">
+                    <span class="item_7"></span> 百度推广
+                </a>
+            </div>
+            <div class="pro-normal">
+                <a href="http://www.baidu.com/more/">全部产品</a>
+            </div>
+        </div>
+    </div>
+    <!-- 未来几天的天气 -->
+    <div id="s_mod_setweather" class="s-mod-setweather hide hover-self">
+        <div class="weather-setting-content" style="display: block;">
+            <div class="setweather-content">
+                <div class="warn-mod">
+                    <div class="warn-img-bg"></div>
+                    <a target="_blank" hidefocus="" href="" class="warn-title"></a>
+                </div>
+                <div class="lunar-mod"><span class="lunar-calendar" title="1月29日">1月29日</span>
+                    <span class="lunar-festival" title="农历 十二月二十">农历 十二月二十</span>
+                    <span class="lunar-sevenday"><a class="lunar-sevenday-link" target="_blank" hidefocus="" href="#">未来七天天气</a></span><span class="lunar-setting-btn">设置</span>
+                </div>
+                <div class="everyday-mod">
+                    <div class="everyday-item today is-today" day-name="today">
+                        <a class="everyday-link" target="_blank" hidefocus="" href="#">
+                            <p class="everyday-title" title="今天(周五)">今天(周五)</p>
+                            <img class="everyday-icon" src="../static/hello/src/image/a0.png">
+                            <p class="everyday-temp" title="-2℃">-2℃</p>
+                            <p class="everyday-condition" title="多云转阴">多云转阴</p>
+                            <p class="everyday-wind" title="微风">微风</p>
+                        </a>
+                    </div>
+                    <div class="everyday-item tomorrow ">
+                        <a class="everyday-link" target="_blank" href="#">
+                            <p class="everyday-title" title="明天(周六)">明天(周六)</p>
+                            <img class="everyday-icon" src="../static/hello/src/image/a1.png">
+                            <p class="everyday-temp" title="-3 ~ -10℃">-3 ~ -10℃</p>
+                            <p class="everyday-condition" title="小雪转多云">小雪转多云</p>
+                            <p class="everyday-wind" title="微风">微风</p>
+                        </a>
+                    </div>
+                    <div class="everyday-item thirdday ">
+                        <a class="everyday-link" target="_blank" href="#">
+                            <p class="everyday-title" title="后天(周日)">后天(周日)</p>
+                            <img class="everyday-icon" src="../static/hello/src/image/a2.png">
+                            <p class="everyday-temp" title="1 ~ -9℃">1 ~ -9℃</p>
+                            <p class="everyday-condition" title="晴">晴</p>
+                            <p class="everyday-wind" title="微风">微风</p>
+                        </a>
+                    </div>
+                    <div class="everyday-item fourthday ">
+                        <a class="everyday-link" target="_blank" href="#">
+                            <p class="everyday-title" title="周一">周一</p>
+                            <img class="everyday-icon" src="../static/hello/src/image/a2.png">
+                            <p class="everyday-temp" title="3 ~ -9℃">3 ~ -9℃</p>
+                            <p class="everyday-condition" title="晴">晴</p>
+                            <p class="everyday-wind" title="微风">微风</p>
+                        </a>
+                    </div>
+                    <div class="everyday-item fifthday ">
+                        <a class="everyday-link" target="_blank" href="#">
+                            <p class="everyday-title" title="周二">周二</p>
+                            <img class="everyday-icon" src="../static/hello/src/image/a2.png">
+                            <p class="everyday-temp" title="4 ~ -8℃">4 ~ -8℃</p>
+                            <p class="everyday-condition" title="晴转多云">晴</p>
+                            <p class="everyday-wind" title="微风">微风</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../sea-modules/seajs/seajs/2.2.0/sea.js"></script>
+    <script>
+    seajs.config({
+        base: "../sea-modules/",
+        alias: {
+            "jquery": "jquery/jquery/1.10.1/jquery.js"
+        }
+    });
+    seajs.use("../static/hello/src/main");
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+{
+    "res": {
+        "css/baidu.css": {
+            "uri": "/css/baidu_abd1fb6.css",
+            "type": "css"
+        },
+        "css/jquery-ui.min.css": {
+            "uri": "/css/jquery-ui.min_e83f87b.css",
+            "type": "css"
+        },
+        "js/1.js": {
+            "uri": "/js/1_545a03e.js",
+            "type": "js"
+        },
+        "js/jquery-2.1.4.min.js": {
+            "uri": "/js/jquery-2.1.4.min_f9c7afd.js",
+            "type": "js"
+        },
+        "js/jquery-ui.min.js": {
+            "uri": "/js/jquery-ui.min_377903f.js",
+            "type": "js"
+        }
+    },
+    "pkg": {}
+}

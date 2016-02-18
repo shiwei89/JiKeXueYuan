@@ -1,0 +1,48 @@
+{
+    "res": {
+        "css/baidu.css": {
+            "uri": "/css/baidu.css",
+            "type": "css",
+            "pkg": "p1"
+        },
+        "css/jquery-ui.min.css": {
+            "uri": "/css/jquery-ui.min.css",
+            "type": "css",
+            "pkg": "p1"
+        },
+        "js/1.js": {
+            "uri": "/js/1.js",
+            "type": "js",
+            "pkg": "p0"
+        },
+        "js/jquery-2.1.4.min.js": {
+            "uri": "/js/jquery-2.1.4.min.js",
+            "type": "js",
+            "pkg": "p0"
+        },
+        "js/jquery-ui.min.js": {
+            "uri": "/js/jquery-ui.min.js",
+            "type": "js",
+            "pkg": "p0"
+        }
+    },
+    "pkg": {
+        "p0": {
+            "uri": "/pkg/lib.js",
+            "type": "js",
+            "has": [
+                "js/1.js",
+                "js/jquery-2.1.4.min.js",
+                "js/jquery-ui.min.js"
+            ]
+        },
+        "p1": {
+            "uri": "/pkg/aio.css",
+            "type": "css",
+            "has": [
+                "css/baidu.css",
+                "css/jquery-ui.min.css"
+            ]
+        }
+    }
+}

@@ -1,0 +1,670 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/*header comment*/
+div.header {
+  width: 1000px;
+  height: 50px;
+}
+div.header input {
+  width: 340px;
+  height: 40px;
+  position: absolute;
+  margin-left: 240px;
+  margin-top: 15px;
+}
+div.header input.search-btn {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  left: 340px;
+  margin-top: 15px;
+  border: 1px solid #dfdfdf;
+  background: url(111.png) center center no-repeat;
+}
+div.header span a {
+  text-decoration: none;
+  font-size: 15px;
+  background: #dfdfdf;
+  color: #333;
+}
+div.header span a:hover {
+  background: gray;
+}
+div.header span a.one {
+  position: relative;
+  left: 125px;
+  top: -11px;
+}
+div.header span a.two {
+  position: relative;
+  left: 135px;
+  top: -11px;
+}
+div.header span a.three {
+  position: relative;
+  left: 145px;
+  top: -11px;
+}
+div.header p {
+  width: 200px;
+  height: 20px;
+  float: right;
+  font-size: 15px;
+  margin-top: 25px;
+}
+div.header p a {
+  margin-left: 17px;
+  text-decoration: none;
+}
+
+hr {
+  width: 1000px;
+  color: red;
+}
+
+/*navigation comment*/
+div.navigation ul.one li, div.navigation ul.two li {
+  display: inline;
+  font-size: 14px;
+  line-height: 42px;
+  margin-right: 22px;
+}
+div.navigation ul.one li a, div.navigation ul.two li a {
+  text-decoration: none;
+  color: #333;
+}
+div.navigation ul.two {
+  margin-top: -41px;
+  width: 270px;
+  position: relative;
+  right: -736px;
+  top: -11px;
+}
+div.navigation ul.two li a {
+  text-align: right;
+}
+
+/*introduce comment*/
+div.introduce {
+  height: 305px;
+  margin-top: 20px;
+  width: 1000px;
+}
+div.introduce div.first {
+  float: left;
+  width: 210px;
+  height: 305px;
+  margin-right: 10px;
+}
+div.introduce div.first div {
+  line-height: 36px;
+  border: 1px solid gray;
+  border-top-color: #35b558;
+}
+div.introduce div.first div a {
+  text-decoration: none;
+  margin: 11px;
+}
+div.introduce div.first div a:hover {
+  color: #35b558;
+}
+div.introduce div.second {
+  float: left;
+  background: white;
+  display: none;
+  z-index: 100;
+  position: absolute;
+  left: 400px;
+  background: red;
+}
+div.introduce div.second div {
+  line-height: 37px;
+}
+div.introduce div.second div a {
+  text-decoration: none;
+  margin: 11px;
+}
+div.introduce div.second div a:hover {
+  color: #35b558;
+}
+div.introduce div.third {
+  float: left;
+}
+div.introduce div.third div.carousel {
+  width: 570px;
+}
+div.introduce div.third div.carousel a {
+  width: 50px;
+  background: red;
+  height: 50px;
+}
+div.introduce div.fourth {
+  width: 210px;
+  height: 152px;
+  float: left;
+  border: 1px solid gray;
+}
+div.introduce div.fourth h5 {
+  margin: 25px 20px;
+}
+div.introduce div.fourth p {
+  color: #35b558;
+  font-size: 12px;
+  margin: 15px 20px;
+  line-height: 1.8;
+}
+div.introduce div.fourth button {
+  width: 168px;
+  height: 34px;
+  line-height: 34px;
+  font-size: 14px;
+  cursor: pointer;
+  border-color: #7bda95;
+  background: #35b558;
+  color: #FFF;
+  margin-left: 20px;
+}
+div.introduce div.fifth {
+  width: 210px;
+  height: 152px;
+  float: left;
+  border: 1px solid gray;
+}
+div.introduce div.fifth h5 {
+  margin: 25px 20px 12px;
+}
+div.introduce div.fifth p {
+  color: #35b558;
+  font-size: 12px;
+  margin: 5px 20px;
+  line-height: 1.8;
+}
+div.introduce div.fifth button {
+  width: 168px;
+  height: 34px;
+  line-height: 34px;
+  font-size: 14px;
+  cursor: pointer;
+  border-color: #7bda95;
+  color: #35b558;
+  margin-left: 20px;
+}
+
+div#tabs {
+  width: 1000px;
+  height: 510px;
+}
+div#tabs li a {
+  width: 159px;
+  float: left;
+  text-align: center;
+}
+div#tabs div#tabs-1 div.one,
+div#tabs div#tabs-1 div.two,
+div#tabs div#tabs-1 div.three,
+div#tabs div#tabs-1 div.four,
+div#tabs div#tabs-1 div.five,
+div#tabs div#tabs-1 div.six,
+div#tabs div#tabs-1 div.seven,
+div#tabs div#tabs-1 div.eight {
+  width: 235px;
+  height: 215px;
+  float: left;
+  border: 1px solid gray;
+}
+div#tabs div#tabs-1 div.one img,
+div#tabs div#tabs-1 div.two img,
+div#tabs div#tabs-1 div.three img,
+div#tabs div#tabs-1 div.four img,
+div#tabs div#tabs-1 div.five img,
+div#tabs div#tabs-1 div.six img,
+div#tabs div#tabs-1 div.seven img,
+div#tabs div#tabs-1 div.eight img {
+  width: 235px;
+  height: 130px;
+}
+div#tabs div#tabs-1 div.one p.one,
+div#tabs div#tabs-1 div.two p.one,
+div#tabs div#tabs-1 div.three p.one,
+div#tabs div#tabs-1 div.four p.one,
+div#tabs div#tabs-1 div.five p.one,
+div#tabs div#tabs-1 div.six p.one,
+div#tabs div#tabs-1 div.seven p.one,
+div#tabs div#tabs-1 div.eight p.one {
+  margin: 10px;
+}
+div#tabs div#tabs-1 div.one p.two,
+div#tabs div#tabs-1 div.two p.two,
+div#tabs div#tabs-1 div.three p.two,
+div#tabs div#tabs-1 div.four p.two,
+div#tabs div#tabs-1 div.five p.two,
+div#tabs div#tabs-1 div.six p.two,
+div#tabs div#tabs-1 div.seven p.two,
+div#tabs div#tabs-1 div.eight p.two {
+  font-size: 10px;
+  margin: 10px;
+  display: none;
+}
+div#tabs div#tabs-1 div.one p.three,
+div#tabs div#tabs-1 div.two p.three,
+div#tabs div#tabs-1 div.three p.three,
+div#tabs div#tabs-1 div.four p.three,
+div#tabs div#tabs-1 div.five p.three,
+div#tabs div#tabs-1 div.six p.three,
+div#tabs div#tabs-1 div.seven p.three,
+div#tabs div#tabs-1 div.eight p.three {
+  font-size: 10px;
+  margin: 10px;
+}
+div#tabs div#tabs-1 div.one,
+div#tabs div#tabs-1 div.five {
+  margin-left: -22px;
+  margin-right: 10px;
+}
+div#tabs div#tabs-1 div.two,
+div#tabs div#tabs-1 div.six,
+div#tabs div#tabs-1 div.seven {
+  margin-right: 10px;
+}
+div#tabs div#tabs-1 div.three {
+  margin-right: 10px;
+  margin-top: 0px;
+}
+div#tabs div#tabs-1 div.five {
+  background: #fff;
+}
+div#tabs div#tabs-1 div.six,
+div#tabs div#tabs-1 div.seven,
+div#tabs div#tabs-1 div.five,
+div#tabs div#tabs-1 div.eight {
+  margin-top: 20px;
+}
+div#tabs div#tabs-2 div {
+  width: 235px;
+  height: 215px;
+  float: left;
+}
+div#tabs div#tabs-2 div.one img {
+  width: 235px;
+  height: 130px;
+}
+div#tabs div#tabs-2 div.one p.one {
+  margin: 10px;
+}
+div#tabs div#tabs-2 div.one p.two {
+  font-size: 10px;
+  margin: 10px;
+  display: none;
+}
+div#tabs div#tabs-2 div.one p.three {
+  font-size: 10px;
+  margin: 10px;
+}
+div#tabs div#tabs-2 div.one,
+div#tabs div#tabs-2 div.five {
+  margin-left: -22px;
+  margin-right: 10px;
+}
+
+/*career comment*/
+div.career {
+  clear: both;
+  width: 1000px;
+}
+div.career p.one {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+div.career p a {
+  text-decoration: none;
+  color: #333;
+}
+div.career img {
+  width: 199px;
+  height: 120px;
+}
+div.career h2 {
+  font-size: 15px;
+  color: #333;
+  margin-bottom: 20px;
+  height: 18px;
+  overflow: hidden;
+}
+div.career div.o {
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-style: solid none solid solid;
+  border-top-color: #e4e4e4;
+  border-bottom-color: #e4e4e4;
+  border-left-color: #e4e4e4;
+  margin-top: 0px;
+  float: left;
+  text-align: center;
+}
+div.career div.o:hover {
+  border-color: #35b558;
+}
+div.career div.o p {
+  font-size: 12px;
+  color: #666;
+  line-height: 20px;
+  height: 20px;
+  width: 199px;
+  overflow: hidden;
+}
+div.career div.o button {
+  width: 140px;
+  height: 35px;
+  color: #35b558;
+  border-color: #35b558;
+  font-weight: 700;
+}
+div.career div.o button:hover {
+  color: #FFF;
+  background: #e4e4e4;
+}
+
+/*knowledge-hierarchy comment*/
+div.knowledge-hierarchy {
+  margin-top: 45px;
+}
+div.knowledge-hierarchy p.one {
+  color: #333;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+div.six1 {
+  width: 161px;
+  height: 120px;
+  background: #fff;
+  border: 1px solid #E4E4E4;
+  text-align: center;
+  float: left;
+}
+div.six1 a {
+  text-decoration: none;
+}
+div.six1 p {
+  margin-top: 30px;
+  display: block;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+div.six1 button {
+  height: 30px;
+  width: 139px;
+  background: #35b558;
+  margin-bottom: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #fff;
+}
+div.six1 img {
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+}
+div.six1 h2 {
+  font-size: 16px;
+  margin-top: 0px;
+  color: #333;
+}
+div.six1 span {
+  color: #35b558;
+}
+
+div.back {
+  width: 160px;
+  height: 120px;
+  background: #f5f5f5;
+  float: left;
+  -webkit-transform: rotateY(180deg);
+}
+
+div.front {
+  width: 160px;
+  height: 120px;
+  background: #fff;
+  position: absolute;
+  float: left;
+  -webkit-transform: rotateY(0deg);
+}
+
+/*gorenje  comment*/
+div.gorenje {
+  clear: both;
+  width: 1000px;
+}
+div.gorenje p.one {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+div.gorenje p a {
+  text-decoration: none;
+  color: #333;
+}
+div.gorenje div.one2 {
+  width: 235px;
+  height: 261px;
+  padding: 17px;
+  border: 1px solid gray;
+  margin-right: 20px;
+  float: left;
+}
+div.gorenje h3 {
+  font-size: 16px;
+}
+div.gorenje img {
+  width: 201px;
+  height: 160px;
+}
+div.gorenje span {
+  margin-top: 20px;
+}
+div.gorenje div.one4 {
+  margin-right: 0px;
+}
+
+/*WiKi  comment*/
+div.WiKi {
+  clear: both;
+  width: 1000px;
+  background: orange;
+}
+div.WiKi p.one {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+div.WiKi p a {
+  text-decoration: none;
+  color: #333;
+}
+div.WiKi div.one8 {
+  padding: 10px;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-style: solid none solid solid;
+  border-top-color: #e4e4e4;
+  border-bottom-color: #e4e4e4;
+  border-left-color: #e4e4e4;
+  margin-top: 0px;
+  float: left;
+  width: 333px;
+}
+div.WiKi img.one {
+  margin-right: 18px;
+}
+div.WiKi h6 {
+  font-size: 12px;
+}
+div.WiKi span {
+  margin: auto 40px;
+}
+div.WiKi ul li span {
+  font-size: 10px;
+}
+div.WiKi ul li span.two {
+  float: right;
+}
+
+/*strategic-cooperation  comment*/
+div.strategic-cooperation {
+  clear: both;
+  width: 1000px;
+}
+div.strategic-cooperation p.first {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+div.strategic-cooperation p a {
+  text-decoration: none;
+  color: #333;
+}
+div.strategic-cooperation div.first {
+  border: 1px solid #E4E4E4;
+  height: 90px;
+  padding: 20px;
+  width: 1000px;
+}
+
+div.carousel slide2 {
+  width: 270px;
+}
+
+/*Cooperative-Academy  comment*/
+div.Cooperative-Academy {
+  clear: both;
+  width: 1000px;
+}
+div.Cooperative-Academy p.first {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+div.Cooperative-Academy p a {
+  text-decoration: none;
+  color: #333;
+}
+div.Cooperative-Academy div.first {
+  border: 1px solid #E4E4E4;
+  height: 150px;
+  padding: 20px;
+  width: 1000px;
+}
+div.Cooperative-Academy img {
+  width: 110px;
+  height: 110px;
+}
+
+/*Media-reports  comment*/
+div.Media-reports {
+  clear: both;
+  width: 1000px;
+}
+div.Media-reports p.first {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+div.Media-reports p a {
+  text-decoration: none;
+  color: #333;
+}
+div.Media-reports div.first {
+  border: 1px solid #E4E4E4;
+  height: 90px;
+  padding: 20px;
+  width: 1000px;
+}
+div.Media-reports img {
+  width: 110px;
+  height: 110px;
+}
+
+/*footer  comment*/
+div.footer {
+  width: 1000px;
+}
+div.footer h1 {
+  font-size: 16px;
+}
+div.footer div.one {
+  width: 185px;
+  height: 251px;
+  padding-top: 30px;
+  padding-left: 40px;
+  border-left: solid 1px #333;
+  float: left;
+}
+div.footer div.one a {
+  color: #333;
+}
+div.footer div.one a:hover {
+  color: #35b558;
+  text-decoration: none;
+}
+div.footer div.fourth {
+  border-right: solid 1px #333;
+}
+div.footer div.fifth {
+  padding-top: 25px;
+  padding-left: 45px;
+  border-left: solid 1px #333;
+}
+div.footer div.fifth img {
+  width: 21px;
+  height: 49px;
+  position: relative;
+  left: 13px;
+}
+div.footer div.fifth span.one {
+  position: relative;
+  top: -8px;
+  left: 14px;
+}
+div.footer div.fifth p.one {
+  padding-right: 162px;
+  margin-left: -10px;
+}
+div.footer div.fifth span.two {
+  position: relative;
+  top: 20px;
+  left: -55px;
+}
+div.footer div.fifth span.four {
+  position: relative;
+  top: 20px;
+  left: -40px;
+}
+
+/*Copyright  comment*/
+div.Copyright {
+  width: 1366px;
+  height: 56px;
+}
+div.Copyright div {
+  margin-left: 325px;
+}
+
+/*# sourceMappingURL=main.css.map */

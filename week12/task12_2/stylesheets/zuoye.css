@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div.container {
+    width: 80%;
+    background: #00FFFF;
+    margin: 20px auto;
+    font: normal normal normal 20px arial, sans-serif;
+    line-height: 30px;
+    letter-spacing: 1px;
+    text-align: left;
+    border-radius: 100px;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #8B008B;
+}
+
+p {
+    text-indent: 50px;
+}

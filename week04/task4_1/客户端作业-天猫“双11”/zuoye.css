@@ -1,0 +1,58 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    div.container {
+        text-align: center;
+        height: 750px;
+    }
+    
+    div.header {
+        background: #FF00EE;
+        height: 10%;
+        padding-top: 35px;
+    }
+    
+    div.article {
+        background: yellow;
+        height: 80%;
+        text-align: left;
+        overflow: hidden;
+    }
+    
+    div.left {
+        background: #00DFFF;
+        float: left;
+        width:28%;
+        height: 100%;
+        overflow: scroll;
+        padding-bottom: 9999px;
+        margin-bottom: -9999px;
+    }
+    
+    div.middle {
+        background: #90EE90;
+        float: left;
+        width: 44%;
+        height: 100%;
+        padding-bottom: 9999px;
+        margin-bottom: -9999px;
+    }
+    
+    div.right {
+        background: #9ACD32;
+        float: left;
+        width: 28%;
+        height: 100%;
+        overflow: scroll;
+        padding-bottom: 9999px;
+        margin-bottom: -9999px;
+    }
+    
+    div.footer {
+        clear: both;
+        background: #7CFC00;
+        height: 10%;
+        padding-top: 35px;
+    }

@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+}
+
+div.div1 p {
+    width: 100%;
+    height: 10%;
+    font-size: 30px;
+    background: #00FFFF;
+}
+
+div.div2 {
+    width: 100%;
+    height: 80%;
+    margin-top: -10px;
+}
+
+div.left {
+    float: left;
+    width: 20%;
+    height: 100%;
+    background: orange;
+}
+
+div.right {
+    float: left;
+    width: 80%;
+    height: 100%;
+    background: green;
+}
+
+li {
+    padding-top: 44px;
+    padding-bottom: 40px;
+}
+
+div.div3 {
+    width: 100%;
+    height: 10%;
+    background: #00FFFF;
+    clear: both;
+    font-size: 30px;
+}
+
+form input {
+    width: 200px;
+}
+
+a {
+    font-size: 18px;
+}

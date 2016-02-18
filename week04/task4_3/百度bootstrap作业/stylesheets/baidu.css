@@ -1,0 +1,5 @@
+div.container {
+    text-align: center;
+}
+
+div.col-xs-2,div.col-xs-3{margin: 15px auto;}

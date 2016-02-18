@@ -1,0 +1,57 @@
+     div.container {
+     margin: 0 auto;
+     text-align: center;
+ }
+ 
+ input.inputtype {
+     width: 91%;
+     height: 42px;
+     float: left;
+ }
+ 
+ button {
+     width: 80px;
+     height: 48px;
+     float: left;
+     color: #46484b;
+     text-align: center;
+     white-space: nowrap;
+     font-weight: 700;
+     font-size: 16px;
+ }
+ 
+ ul.ul1 li {
+     display: inline;
+     float: left;
+     width: 15%;
+     margin: 100px auto 20px;
+ }
+ 
+ ul.ul2 li {
+     display: inline;
+     float: left;
+     width: 22%;
+     margin: 15px auto;
+ }
+ 
+ @media only screen and (min-width: 1024px) {
+     .container {
+         width: 1000px;
+         margin: auto;
+     }
+ }
+ 
+ @media only screen and (min-width: 400px) and (max-width: 1024px) {
+     .container {
+         width: 400px;
+         margin: auto;
+     }
+ }
+ 
+ @media only screen and (max-width: 400px) {
+     .first,
+     .second,
+     .third {
+         width: 98%;
+         height: 150px;
+     }

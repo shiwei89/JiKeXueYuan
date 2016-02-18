@@ -1,0 +1,42 @@
+body {
+    background: url(../image/1.jpg);
+}
+
+div {
+    position: relative;
+    left: 400px;
+    top: 100px;
+}
+
+.input1,
+.input2,
+button {
+    width: 150px;
+    height: 60px;
+    float: left;
+    text-align: center;
+    font-size: 25px;
+}
+
+.input2 {
+    width: 300px;
+}
+
+button {
+    height: 66px;
+}
+
+p {
+    font-size: 30px;
+    color: yellow;
+}
+
+p.p1 {
+    margin-left: 120px;
+    margin-bottom: 40px;
+}
+
+p.p2 {
+    clear: both;
+    margin: 150px 180px;
+}

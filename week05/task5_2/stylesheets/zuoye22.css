@@ -1,0 +1,26 @@
+ body {
+     background: url(../image/1.jpg);
+ }
+ 
+ div {
+     text-align: center;
+     position: relative;
+     top: -30px;
+ }
+ 
+ p {
+     font-size: 50px;
+     color: #00FFFF;
+ }
+ 
+ input,
+ button {
+     width: 120px;
+     height: 50px;
+     font-size: 20px;
+     text-align: center;
+ }
+ 
+ button {
+     height: 55px;
+ }

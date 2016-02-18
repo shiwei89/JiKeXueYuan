@@ -1,0 +1,143 @@
+div.container {
+    width: 160px;
+    height: 160px;
+    margin: 80px auto 0;
+    border: 3px solid transparent;
+}
+
+div.box {
+    /*margin:80px;
+    -webkit-animation:3dbox 3s ease-in-out infinite;*/
+    -webkit-animation-name: mofang;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-transform-style: preserve-3d;
+    transform-origin: 80px 80px 0;
+    -webkit-transform-origin: 80px 80px 0;
+}
+
+@-webkit-keyframes mofang {
+    16% {
+        -webkit-transform: rotateY(-90deg);
+    }
+    33% {
+        -webkit-transform: rotateY(-90deg) rotateZ(135deg);
+    }
+    50% {
+        -webkit-transform: rotateY(225deg) rotateZ(135deg);
+    }
+    66% {
+        -webkit-transform: rotateY(135deg) rotateX(135deg);
+    }
+    83% {
+        -webkit-transform: rotateX(135deg);
+    }
+}
+
+
+/*div.box div */
+
+div.eleven,
+div.twelve,
+div.thirteen,
+div.fourteen,
+div.fifteen,
+div.sixteen {
+    position: absolute;
+    height: 160px;
+    width: 160px;
+    border: 3px solid #000;
+    /* background: rgba(255, 200, 100, 0.8);*/
+    text-align: center;
+    font-size: 130px;
+}
+
+div.eleven {
+    -webkit-transform: translateZ(80px);
+}
+
+div.twelve {
+    -webkit-transform: rotateX(-90deg) translateZ(80px);
+}
+
+div.thirteen {
+    -webkit-transform: rotateY(90deg) rotateX(90deg) translateZ(80px);
+}
+
+div.fourteen {
+    -webkit-transform: rotateY(180deg) rotateZ(90deg) translateZ(80px);
+}
+
+
+/*div.four{-webkit-transform:translateZ(-80px);}*/
+
+div.fifteen {
+    -webkit-transform: rotateY(-90deg) rotateZ(-90deg) translateZ(80px);
+}
+
+div.sixteen {
+    -webkit-transform: rotateY(90deg) translateZ(80px);
+}
+
+div.eleven,
+div.twelve,
+div.thirteen,
+div.fourteen,
+div.fifteen,
+div.sixteen {
+    width: 160px;
+    height: 160px;
+    background: #FF0000;
+}
+
+div.one,
+div.two,
+div.three,
+div.four,
+div.five,
+div.six,
+div.seven,
+div.eight,
+div.nine {
+    width: 50px;
+    height: 50px;
+    margin: 1px;
+    float: left;
+}
+
+div.one {
+    background: #FFFF00;
+}
+
+div.two {
+    background: #0000FF;
+}
+
+div.three {
+    background: #00FF00;
+}
+
+div.four {
+    background: #7FFF00;
+}
+
+div.five {
+    background: #DC143C;
+}
+
+div.six {
+    background:#FF0000;
+}
+
+div.seven {
+    background: #228B22;
+}
+
+div.eight {
+    background: #7CFC00;
+}
+
+div.nine {
+    background: #FF00FF;
+}

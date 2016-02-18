@@ -1,0 +1,282 @@
+ * {
+     margin: 0;
+ }
+ /*第一部分的注释*/
+ 
+ div.container {
+     margin: auto 80px;
+     min-width: 1200px;
+ }
+ 
+ div.one {
+     height: 60px;
+     font-size: 13px;
+     color: #999;
+ }
+ 
+ a img {
+     cursor: pointer;
+ }
+ 
+ a.one {
+     background: green;
+     color: white;
+ }
+ 
+ span.five {
+     margin: 20px;
+     cursor: pointer;
+ }
+ 
+ span.six {
+     margin-right: 150px;
+ }
+ 
+ a.two {
+     text-decoration: none;
+     height: 60px;
+     color: #999;
+ }
+ 
+ a.three {
+     text-decoration: none;
+     color: #999;
+ }
+ 
+ span.one,
+ span.two,
+ span.three,
+ span.four {
+     margin-right: 10px;
+ }
+ 
+ span.one:hover,
+ span.two:hover,
+ span.three:hover,
+ span.four:hover {
+     cursor: pointer;
+ }
+ 
+ a.four {
+     float: right;
+     margin-right: 0px;
+ }
+ /*第二部分的注释*/
+ 
+ div.two1 {
+     margin-top: 45px;
+     margin-left: 165px;
+ }
+ 
+ input.input1 {
+     width: 540px;
+     height: 35px;
+ }
+ 
+ .input2 {
+     width: 120px;
+     height: 42px;
+     margin-left: -9px;
+     font-size: 15px;
+     cursor: pointer;
+     color: #000;
+     font-weight: 700;
+     text-align: center;
+     vertical-align: middle;
+ }
+ 
+ input.input {
+     width: 100px;
+     height: 43px;
+     background: #0FF;
+ }
+ 
+ .input3 {
+     background: red;
+ }
+ 
+ .input4 {
+     background: yellow;
+ }
+ 
+ .input5 {
+     background: green;
+ }
+ 
+ .input6 {
+     background: blue;
+ }
+ 
+ ul.one {
+     list-style-type: none;
+     width: 538px;
+     text-align: center;
+     margin-left: 250px;
+ }
+ 
+ li {
+     display: inline;
+     font-size: 12px;
+     margin: 5px 10px;
+ }
+ 
+ li.one a {
+     margin-left: -40px;
+     color: green;
+ }
+ 
+ ul.one li a:hover {
+     color: #f00;
+     text-decoration: underline;
+ }
+ 
+ li.four a {
+     color: #F00;
+ }
+ 
+ li.seven a {
+     margin-right: 9px;
+ }
+ 
+ li.eight a {
+     color: green;
+ }
+ 
+ li a {
+     text-decoration: none;
+ }
+ /*第三部分的注释*/
+ 
+ div.three {
+     width: 100%;
+     margin-top: 30px;
+     
+     height: 40px;
+ }
+ div.three ul{width: 1190px;}
+
+ 
+ div.three ul li {
+     color: #333;
+     font-size: 16px;
+     width: 105px;
+     height: 30px;
+     text-align: center;
+     font-weight: 800;
+     cursor: pointer;
+     display: table-cell;
+     padding-top: 10px;
+ }
+ 
+ div.three ul li:hover {
+     color: #0aa770;
+ }
+ 
+ div.three ul li.one {
+     background: #0aa770;
+     color: #FFF;
+
+ }
+ /*第四部分的注释*/
+ 
+ div.four {
+     margin-top: 10px;
+     width: 1190px;
+ }
+ /*第四部分中左边第一部分的注释*/
+ 
+ div.left1 {
+     display: table;
+     width: 278px;
+     border: 1px solid #cecece;
+ }
+ 
+ div.left1 a {
+     text-align: center;
+     color: #333;
+     text-decoration: none;
+     line-height: 30px;
+     display: inline-block;
+     font-size: 15px;
+ }
+ 
+ div.left1 a:hover {
+     color: #F00;
+ }
+ /*第四部分中左边第二部分的注释*/
+ 
+ div.left2 {
+     width: 278px;
+     height: 220px;
+     border: 1px solid #cecece;
+     margin-top: 10px;
+ }
+ 
+ ul.two {
+     -webkit-column-count: 2;
+     -webkit-column-rule-style: none;
+ }
+ 
+ ul li.single,
+ ul li.double {
+     display: inline;
+     margin: 3px;
+     width: 139px;
+     line-height: 35px;
+ }
+ 
+ ul li.single a,
+ ul li.double a {
+     color: #333;
+     font-size: 14px;
+ }
+ 
+ div.left2 ul.two li a:hover {
+     color: #f00;
+     text-decoration: underline;
+ }
+ /*第四部分中右边的注释*/
+ 
+ div.right {
+     float: right;
+     width: 900px;
+     height: 365 px;
+     margin-top: -365px;
+     border: 1px solid #cecece;
+ }
+ 
+ div.right ul {
+     float: left;
+     list-style-type: none;
+ }
+ 
+ ul li.one2,
+ ul li.two2,
+ ul li.three2,
+ ul li.four2,
+ ul li.five2,
+ ul li.six2 {
+     display: list-item;
+     margin: 8px;
+     line-height: 35px;
+ }
+ 
+ ul li.four2,
+ ul li.five2 {
+     margin-right: 10px;
+ }
+ 
+ ul li.one2 a,
+ ul li.two2 a,
+ ul li.three2 a,
+ ul li.four2 a,
+ ul li.five2 a,
+ ul li.six2 a {
+     color: #333;
+     font-size: 14px;
+ }
+ 
+ div.right ul.three li a:hover {
+     color: #f00;
+     text-decoration: underline;
+ }

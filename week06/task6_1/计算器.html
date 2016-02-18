@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculator</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="stylesheets/1.css">
+    <script src="javascript/1.js"></script>
+</head>
+
+<body>
+    <!--这是容器-->
+    <div class="container">
+        <!--这是标题-->
+        <p>Calculator</p>
+        <!--这是表格-->
+        <table border="1" bgColor="#0FF">
+            <tr>
+                <td colspan="4">
+                    <input type="text" id="nummessage">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="1" id="1" onclick="onclicknum(1)">
+                </td>
+                <td>
+                    <input type="button" value="2" id="2" onclick="onclicknum(2)">
+                </td>
+                <td>
+                    <input type="button" value="3" id="3" onclick="onclicknum(3)">
+                </td>
+                <td>
+                    <input type="button" value="+" id="add" onclick="onclicknum('+')">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="4" id="4" onclick="onclicknum(4)">
+                </td>
+                <td>
+                    <input type="button" value="5" id="5" onclick="onclicknum(5)">
+                </td>
+                <td>
+                    <input type="button" value="6" id="6" onclick="onclicknum(6)">
+                </td>
+                <td>
+                    <input type="button" value="-" id="sub" onclick="onclicknum('-')">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="7" id="7" onclick="onclicknum(7)">
+                </td>
+                <td>
+                    <input type="button" value="8" id="8" onclick="onclicknum(8)">
+                </td>
+                <td>
+                    <input type="button" value="9" id="9" onclick="onclicknum(9)">
+                </td>
+                <td>
+                    <input type="button" value="*" id="mul" onclick="onclicknum('*')">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="button" value="0" id="zero" onclick="onclicknum(0)">
+                </td>
+                <td>
+                    <input type="button" value="." id="point" onclick="onclicknum('.')">
+                </td>
+                <td>
+                    <input type="button" value="/" id="division" onclick="onclicknum('/')">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="button" value="Del" id="clear" onclick="onclickclear()">
+                </td>
+                <td colspan="2">
+                    <input type="button" value="=" id="result" onclick="onclickresult()">
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>

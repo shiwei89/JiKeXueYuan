@@ -1,0 +1,28 @@
+div {
+    width: 60%;
+    margin: auto;
+}
+
+p {
+    font-size: 30px;
+    margin-left: 125px;
+    color: orange;
+}
+
+#nummessage {
+    width: 380px;
+    height: 90px;
+    font-size: 50px;
+}
+
+input {
+    width: 90px;
+    height: 70px;
+    font-size: 35px;
+}
+
+#zero,
+#clear,
+#result {
+    width: 190px;
+}

@@ -1,0 +1,767 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+/*第一部分的注释*/
+
+div.one {
+    width: 1000px;
+    height: 50px;
+}
+
+div.one input {
+    width: 340px;
+    height: 40px;
+    position: absolute;
+    margin-left: 240px;
+    margin-top: 15px;
+}
+
+div.one input.search-btn {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 340px;
+    margin-top: 15px;
+    border: 1px solid #dfdfdf;
+    background: url(http://s1.jikexueyuan.com/common/images/topsearch-icon_e1f5df2.png) center center no-repeat;
+}
+
+div.one span a {
+    text-decoration: none;
+    font-size: 15px;
+    background: #dfdfdf;
+    color: #333
+}
+
+div.one span a:hover {
+    background: gray;
+}
+
+div.one span a.one {
+    position: relative;
+    left: 125px;
+    top: -11px;
+}
+
+div.one span a.two {
+    position: relative;
+    left: 135px;
+    top: -11px;
+}
+
+div.one span a.three {
+    position: relative;
+    left: 145px;
+    top: -11px;
+}
+
+div.one p {
+    width: 200px;
+    height: 20px;
+    float: right;
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+div.one p a {
+    margin-left: 17px;
+    text-decoration: none;
+}
+
+hr {
+    width: 1366px;
+    color: red;
+}
+
+
+/*第二部分的注释*/
+
+div.two ul.one li {
+    display: inline;
+    font-size: 14px;
+    line-height: 42px;
+    margin-right: 22px;
+}
+
+div.two ul.one li a {
+    text-decoration: none;
+    color: #333;
+}
+
+div.two ul.two li {
+    display: inline;
+    font-size: 14px;
+    line-height: 42px;
+    margin-left: 22px;
+}
+
+div.two ul.two li a {
+    text-decoration: none;
+    color: #333;
+    text-align: right;
+}
+
+div.two ul.two {
+    margin-top: -41px;
+    width: 270px;
+    /*position: absolute;*/
+    position: relative;
+    right: -736px;
+    top: -11px;
+}
+
+
+/*第三部分的注释*/
+
+div.three {
+    height: 305px;
+    margin-top: 20px;
+    width: 1000px;
+}
+
+
+/*第三部分第一小部分的注释*/
+
+div.three div.first {
+    float: left;
+    width: 210px;
+    height: 305px;
+    margin-right: 10px;
+}
+
+div.three div.first div {
+    line-height: 36px;
+    border: 1px solid gray;
+    border-top-color: #35b558;
+}
+
+div.three div.first div a {
+    text-decoration: none;
+    margin: 11px;
+}
+
+div.three div.first div a:hover {
+    color: #35b558;
+}
+
+
+/*第三部分第二小部分的注释*/
+
+div.three div.second {
+    float: left;
+    background: white;
+    display: none;
+    z-index: 100;
+    position: absolute;
+    left: 400px;
+    background: red;
+
+}
+
+div.three div.second div {
+    line-height: 37px;
+}
+
+div.three div.second div a {
+    text-decoration: none;
+    margin: 11px;
+}
+
+div.three div.second div a:hover {
+    color: #35b558;
+}
+
+
+/*第三部分第三小部分的注释*/
+
+div.three div.third {
+    float: left;
+}
+
+
+/*div.three div.third{position: absolute;left: 420px;}*/
+
+div.carousel {
+    width: 570px;
+}
+div.three div.carousel a{width: 50px;background: red;height: 50px;}
+
+/*第三部分第四小部分的注释*/
+
+div.three div.fourth {
+    width: 210px;
+    height: 152px;
+    float: left;
+    border: 1px solid gray;
+}
+
+div.three div.fourth h5 {
+    margin: 25px 20px;
+}
+
+div.three div.fourth p {
+    color: #35b558;
+    font-size: 12px;
+    margin: 15px 20px;
+    line-height: 1.8;
+}
+
+div.three div.fourth button {
+    width: 168px;
+    height: 34px;
+    line-height: 34px;
+    font-size: 14px;
+    cursor: pointer;
+    border-color: #7bda95;
+    background: #35b558;
+    color: #FFF;
+    margin-left: 20px;
+}
+
+
+/*第三部分第五小部分的注释*/
+
+div.three div.fifth {
+    width: 210px;
+    height: 152px;
+    float: left;
+    border: 1px solid gray;
+}
+
+div.three div.fifth h5 {
+    margin: 25px 20px 12px;
+}
+
+div.three div.fifth p {
+    color: #35b558;
+    font-size: 12px;
+    margin: 5px 20px;
+    line-height: 1.8;
+}
+
+div.three div.fifth button {
+    width: 168px;
+    height: 34px;
+    line-height: 34px;
+    font-size: 14px;
+    cursor: pointer;
+    border-color: #7bda95;
+    color: #35b558;
+    margin-left: 20px;
+}
+
+
+/*第四部分的注释*/
+
+div#tabs {
+    width: 1000px;
+    height: 510px;
+}
+
+div#tabs li a {
+    width: 159px;
+    float: left;
+    text-align: center;
+}
+
+div#tabs-1 img {
+    width: 235px;
+    height: 130px;
+}
+
+div#tabs-1 div {
+    width: 235px;
+    height: 215px;
+    float: left;
+    border: 1px solid gray;
+}
+
+div#tabs-1 div.one,
+div.five {
+    margin-left: -22px;
+    margin-right: 10px;
+}
+
+div#tabs-1 div p.one {
+    margin: 10px;
+}
+
+div#tabs-1 div p.two {
+    font-size: 10px;
+    margin: 10px;
+    display: none;
+}
+
+div#tabs-1 div p.three {
+    font-size: 10px;
+    margin: 10px;
+}
+
+div#tabs-1 div.two,
+div.six,
+div.seven {
+    margin-right: 10px;
+}
+
+div#tabs-1 div.three {
+    margin-right: 10px;
+    margin-top: 0px;
+}
+
+div#tabs-1 div.five {
+    background: #fff;
+}
+
+div#tabs-1 div.six,
+div.seven,
+div.five,
+div.eight {
+    margin-top: 20px;
+}
+
+div#tabs-2 img {
+    width: 235px;
+    height: 130px;
+}
+
+div#tabs-2 div {
+    width: 235px;
+    height: 215px;
+    float: left;
+}
+
+div#tabs-2 div.one,
+div.five {
+    margin-left: -22px;
+    margin-right: 10px;
+}
+
+div#tabs-2 div p.one {
+    margin: 10px;
+}
+
+div#tabs-2 div p.two {
+    font-size: 10px;
+    margin: 10px;
+    display: none;
+}
+
+div#tabs-2 div p.three {
+    font-size: 10px;
+    margin: 10px;
+}
+
+
+/*第五部分的注释*/
+
+div.five1 {
+    clear: both;
+    width: 1000px;
+}
+
+div.five1 p.one {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+div.five1 p a {
+    text-decoration: none;
+    color: #333;
+}
+
+div.five1 img {
+    width: 199px;
+    height: 120px;
+}
+
+div.five1 h2 {
+    font-size: 15px;
+    color: #333;
+    margin-bottom: 20px;
+    height: 18px;
+    overflow: hidden;
+}
+
+div.five1 div.o p {
+    font-size: 12px;
+    color: #666;
+    line-height: 20px;
+    height: 20px;
+    width: 199px;
+    overflow: hidden;
+}
+
+div.five1 div.o {
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-style: solid none solid solid;
+    border-top-color: rgb(228, 228, 228);
+    border-bottom-color: rgb(228, 228, 228);
+    border-left-color: rgb(228, 228, 228);
+    margin-top: 0px;
+    float: left;
+    text-align: center;
+}
+
+div.five1 div.o button {
+    width: 140px;
+    height: 35px;
+    color: #35b558;
+    border-color: #35b558;
+    font-weight: 700;
+}
+
+div.five1 div.o:hover {
+    border-color: #35b558;
+}
+
+div.five1 div.o button:hover {
+    color: #FFF;
+    background: rgb(228, 228, 228);
+}
+
+
+/*第六部分的注释*/
+
+div.six11 {
+    margin-top: 45px;
+}
+
+div.six11 p.one {
+    color: #333;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+div.six1 {
+    width: 167px;
+    height: 120px;
+    background: #fff;
+    border: 1px solid #E4E4E4;
+    text-align: center;
+    float: left;
+}
+
+div.six1 a {
+    text-decoration: none;
+}
+
+div.back {
+    width: 167px;
+    height: 120px;
+    background: #f5f5f5;
+    float: left;
+    -webkit-transform: rotateY(180deg);
+}
+
+div.six1 p {
+    margin-top: 30px;
+    display: block;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+    font-weight: 400
+}
+
+div.six1 button {
+    height: 30px;
+    width: 139px;
+    background: #35b558;
+    margin-bottom: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #fff;
+}
+
+div.front {
+    width: 167px;
+    height: 120px;
+    background: #fff;
+    position: absolute;
+    float: left;
+    -webkit-transform: rotateY(0deg);
+}
+
+div.six1 img {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+div.six1 h2 {
+    font-size: 16px;
+    margin-top: 0px;
+    color: #333;
+}
+
+div.six1 span {
+    color: #35b558;
+}
+
+
+/*第七部分的注释*/
+
+div.seven1 {
+    clear: both;
+    width: 1000px;
+}
+
+div.seven1 p.one {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+div.seven1 p a {
+    text-decoration: none;
+    color: #333;
+}
+
+div.seven1 div.one2 {
+    width: 235px;
+    height: 261px;
+    padding: 17px;
+    border: 1px solid gray;
+}
+
+div.seven1 h3 {
+    font-size: 16px;
+}
+
+div.seven1 img {
+    width: 201px;
+    height: 160px;
+}
+
+div.seven1 span {
+    margin-top: 20px;
+}
+
+div.seven1 div.one2 {
+    margin-right: 20px;
+    float: left;
+}
+
+div.seven1 div.one4 {
+    margin-right: 0px;
+}
+
+
+/*第八部分的注释*/
+
+div.eight1 {
+    clear: both;
+    width: 1000px;
+    background: orange;
+}
+
+div.eight1 p.one {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+div.eight1 p a {
+    text-decoration: none;
+    color: #333;
+}
+
+div.eight1 div.one8 {
+    padding: 10px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-style: solid none solid solid;
+    border-top-color: rgb(228, 228, 228);
+    border-bottom-color: rgb(228, 228, 228);
+    border-left-color: rgb(228, 228, 228);
+    margin-top: 0px;
+    float: left;
+    width: 333px;
+}
+
+div.eight1 img.one {
+    margin-right: 18px;
+}
+
+div.eight1 h6 {
+    font-size: 12px;
+}
+
+div.eight1 span {
+    margin: auto 40px;
+}
+
+div.eight1 ul li span.two {
+    float: right;
+}
+
+div.eight1 ul li span {
+    font-size: 10px;
+}
+
+
+/*第九部分的注释*/
+
+div.nine {
+    clear: both;
+    width: 1000px;
+}
+
+div.nine p.first {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+div.nine p a {
+    text-decoration: none;
+    color: #333;
+}
+
+div.nine div.first {
+    border: 1px solid #E4E4E4;
+    height: 90px;
+    padding: 20px;
+    width: 1000px;
+}
+
+div.carousel slide2 {
+    width: 270px;
+}
+
+
+/*第十部分的注释*/
+
+div.ten {
+    clear: both;
+    width: 1000px;
+}
+
+div.ten p.first {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+div.ten p a {
+    text-decoration: none;
+    color: #333;
+}
+
+div.ten div.first {
+    border: 1px solid #E4E4E4;
+    height: 150px;
+    padding: 20px;
+    width: 1000px;
+}
+
+div.ten img {
+    width: 110px;
+    height: 110px;
+}
+
+
+/*第十一部分的注释*/
+
+div.eleven {
+    clear: both;
+    width: 1000px;
+}
+
+div.eleven p.first {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+div.elelen p a {
+    text-decoration: none;
+    color: #333;
+}
+
+div.eleven div.first {
+    border: 1px solid #E4E4E4;
+    height: 90px;
+    padding: 20px;
+    width: 1000px;
+}
+
+div.eleven img {
+    width: 110px;
+    height: 110px;
+}
+
+
+/*第十二部分的注释*/
+
+div.twelve {
+    width: 1000px;
+}
+
+div.twelve h1 {
+    font-size: 16px;
+}
+
+div.twelve div.one {
+    width: 185px;
+    height: 251px;
+    padding-top: 30px;
+    padding-left: 40px;
+    border-left: solid 1px #333;
+    float: left;
+}
+
+div.twelve a {
+    color: #333;
+}
+
+div.twelve a:hover {
+    color: #35b558;
+    text-decoration: none;
+}
+
+div.twelve div.fifth {
+    padding-top: 25px;
+    padding-left: 45px;
+}
+
+div.twelve img {
+    width: 21px;
+    height: 49px;
+}
+
+div.twelve div.fifth {
+    border-left: solid 1px #333;
+}
+
+div.twelve div.fifth span.one {
+    padding-right: 162px;
+}
+
+div.twelve div.fifth p.one {
+    padding-right: 162px;
+}
+
+
+/*第十三部分的注释*/
+
+div.thirteen {
+    width: 1366px;
+    height: 56px;
+}
+
+div.thirteen div {
+    margin-top: 1580px;
+    margin-left: -390px;
+}

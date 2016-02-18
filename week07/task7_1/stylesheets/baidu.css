@@ -1,0 +1,345 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+div.container {
+    display: block;
+    min-width: 810px;
+    min-height: 600px;
+}
+
+div.top {
+    text-align: right;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
+
+a.one,
+a.two,
+a.three,
+a.four,
+a.five,
+a.six,
+a.seven,
+a.eight {
+    font-size: 13px;
+    color: #333;
+    font-weight: bold;
+    display: inline;
+    margin: 23px 8px;
+}
+
+a.one:hover,
+a.two:hover,
+a.three:hover,
+a.four:hover,
+a.five:hover,
+a.six:hover,
+a.seven:hover {
+    color: blue;
+}
+
+a.six,
+a.seven,
+a.eight {
+    font-weight: normal;
+}
+
+a.eight {
+    color: white;
+    background-color: #38f;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #38f;
+    line-height: 24px;
+}
+
+div.middle {
+    text-align: center;
+    width: 641px;
+    margin: 0 auto;
+    padding: 0px 0px 280px 0px;
+}
+
+img {
+    padding-bottom: 20px;
+}
+
+input.text {
+    width: 526px;
+    height: 13px;
+    padding: 10px 5px;
+    float: left;
+    line-height: 33px;
+}
+
+input.btn {
+    width: 100px;
+    height: 37px;
+    line-height: 37px;
+    background: #317ef3;
+    border-bottom: 1px solid #2d78f4;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    float: left;
+}
+
+input.btn:hover {
+    background: #317ef3;
+    border-bottom: 1px solid #2868c8;
+    box-shadow: 1px 1px 1px #ccc;
+}
+
+div.bottom {
+    text-align: center;
+}
+
+#pid1 {
+    font: 12px arial;
+    color: #00c;
+}
+
+a.nine {
+    color: #00c;
+}
+
+a.ten {
+    color: #666;
+}
+
+#pid2 {
+    font: 12px arial;
+    color: #666;
+}
+
+div.middle2 {
+    width: 900px;
+    margin: -180px auto 0px;
+}
+
+div.middle2 ul li span {
+    display: block;
+    padding: 5px;
+    width: 80px;
+    text-align: center;
+}
+
+#tabs-1 p.two,
+p.four {
+    text-align: center;
+}
+
+#tabs-1 p.two span,
+p.four span {
+    color: blue;
+}
+
+#tabs-2 img:hover {
+    border: solid 1px red;
+}
+
+#tabs-2 img {
+    padding: 8px 11px;
+}
+
+#tabs-3 div.one {
+    width: 538px;
+}
+
+#tabs-3 .one img.two {
+    position: relative;
+    right: -7px;
+}
+
+#tabs-3 .one img.three {
+    position: relative;
+    right: -15px;
+}
+
+#tabs-3 .one img.four {
+    position: relative;
+    right: -30px;
+}
+
+#tabs-3 div.two {
+    width: 300px;
+    position: relative;
+    left: 560px;
+    top: -269px;
+}
+
+#tabs-3 div.two a {
+    text-decoration: none;
+}
+
+#tabs-3 div.two a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+#div11 img {
+    margin-left: 8px;
+}
+
+#div13 img {
+    margin-left: 8px;
+}
+
+#div12 span {
+    width: 200px;
+    margin-left: 8px;
+    color: red;
+}
+
+#div12 a {
+    margin-left: 8px;
+    text-decoration: none;
+}
+
+#div14 span {
+    width: 200px;
+    margin-left: 8px;
+    color: red;
+}
+
+#div14 a {
+    margin-left: 8px;
+    text-decoration: none;
+}
+
+#div15 td {
+    border: solid 1px gray;
+    width: 273px;
+    text-align: center;
+}
+
+#div15 {
+    margin-top: 20px;
+}
+
+#div15 td p a {
+    text-decoration: none;
+}
+
+#div15 td p span.one {
+    color: red;
+}
+
+#div15 td p span.two {
+    text-decoration: line-through;
+}
+
+#tabs-5 div span p {
+    margin-top: -23px;
+}
+
+#tabs-5 div span img.one {
+    margin-top: 16px;
+}
+
+#tabs-5 div span.two {
+    position: relative;
+    left: 200px;
+    top: -356px;
+}
+
+#tabs-5 div span.three {
+    position: relative;
+    left: 400px;
+    top: -713px;
+}
+
+#tabs-5 div span.four {
+    position: relative;
+    left: 610px;
+    top: -860px;
+}
+
+#tabs-5 div span.five {
+    position: relative;
+    left: 400px;
+    top: -866px;
+}
+
+#tabs-5 div span.six {
+    position: relative;
+    left: 610px;
+    top: -1010px;
+}
+
+#tabs-5 p:hover,
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+
+/*百度首行右边栏的css*/
+
+div#slide,
+div#slide2 {
+    display: none;
+    width: 70px;
+    height: 135px;
+    border: 1px solid gray;
+    box-shadow: 0 0 5px gray;
+}
+
+div#slide {
+    position: absolute;
+    left: 1150px;
+}
+
+div#slide2 {
+    height: 110px;
+    position: absolute;
+    left: 1200px;
+}
+
+div#slide p,
+div#slide2 p {
+    font-size: 5px;
+    text-align: center;
+}
+
+div#slide p:hover,
+div#slide2 p:hover {
+    background: blue;
+}
+
+div#slide3 {
+    display: none;
+    width: 90px;
+    height: 610px;
+    border: 1px solid gray;
+    box-shadow: 0 0 5px gray;
+    text-align: center;
+}
+
+div#slide3 p {
+    font-size: 5px;
+    margin-top: -20px;
+}
+
+div#slide3 a {
+    margin-top: 15px;
+}
+
+div#slide3 {
+    position: absolute;
+    right: -1216px;
+}
+
+#tabs-1 p.two,
+p.four {
+    display: none;
+}

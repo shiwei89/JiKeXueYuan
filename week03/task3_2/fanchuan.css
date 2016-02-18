@@ -1,0 +1,60 @@
+div.sun {
+    width: 50px;
+    height: 50px;
+    background: red;
+    border-radius: 50%;
+    float: right;
+}
+
+div.container {
+    clear: both;
+    width: 250px;
+    border: 2px solid transparent;
+    position: relative;
+    -webkit-animation: fanchuan 4s linear infinite alternate;
+}
+
+@-webkit-keyframes fanchuan {
+    0% {
+        left: 0;
+        top: 0;
+    }
+    25% {
+        left: 100px;
+        top: 0;
+    }
+    50% {
+        left: 200px;
+        top: 0;
+    }
+    75% {
+        left: 300px;
+        top: 0;
+    }
+    100% {
+        left: 400px;
+        top: 0;
+    }
+}
+
+div.box2 {
+    width: 100px;
+    height: 0px;
+    border: 50px solid #FFE4C4;
+    border-left-color: yellow;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    position: relative;
+    left: 125px;
+}
+
+div.box {
+    width: 200px;
+    height: 0px;
+    border: 20px solid #FFE4C4;
+    border-left-color: transparent;
+    border-top-color: blue;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+}
